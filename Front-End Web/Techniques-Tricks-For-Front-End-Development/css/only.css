@@ -1,0 +1,20 @@
+/* FOR ANY BROWSER */
+body{
+	background: blue;
+}
+
+/* This line only serves to style IE or EDGE */
+_:-ms-lang(x), body { background: black; }
+_:-ms-lang(x), .box { width: 500px;height: 500px;background: gray;}
+
+/* Only serves to style Mozilla Firefox */
+ @-moz-document url-prefix() {
+ 	body{
+ 		background: green;
+ 	}
+ 	.box{
+ 		width: 500px;
+ 		height: 500px;
+ 		background: black;
+ 	}
+ }

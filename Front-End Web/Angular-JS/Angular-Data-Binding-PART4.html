@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Angular</title>
+</head>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+
+	<p ng-bind="name"></p>
+
+	<div></div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script>
+var app = angular.module("myApp", []);
+app.controller('myCtrl', function($scope) {
+	$scope.name = "Jony Peixoto";
+	$scope.other_name = "Jonathan";
+});
+</script>
+</body>
+</html>

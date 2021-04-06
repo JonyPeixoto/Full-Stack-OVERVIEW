@@ -1,0 +1,23 @@
+var container = document.getElementById('root');
+
+class Box extends React.Component{
+	render(){
+		return <h2>{this.props.children}</h2>
+	}
+}
+
+class Form extends React.Component{
+	renderMyApp(){
+		return (<div><input type="text" /><input onClick={this.handleClick} type="submit" /></div>)
+	}
+	handleClick(){
+		$('body').append('<div class="box" style="width:500px;height:500px;background:red;"></div>');
+		alert("Clicked!");
+	}
+	render(){
+		return this.renderMyApp();
+	}
+}
+
+ReactDOM.render(<div class="principal-react"><Form /><Box>Some random text</Box><Box name="Thay" /><Box name="Jenny" /></div>,container);
+

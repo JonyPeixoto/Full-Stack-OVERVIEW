@@ -1,0 +1,85 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.box{
+	width: 30px;
+	background-color: rgb(220,220,220);
+	position: relative;
+}
+
+/*--- USING WORD-WRAP ---*/
+
+
+/*
+
+.box p{
+	word-wrap: break-word;
+	display: inline;
+	border-bottom: 2px solid green;
+	color: #444;
+	font-size: 13px;
+}
+
+*/
+
+
+
+/*--- USING WORD-BREAK-ALL ---*/
+
+/*
+
+.box p{
+	word-break: break-all;
+	display: inline;
+	border-bottom: 2px solid green;
+	color: #444;
+	font-size: 13px;
+}
+
+*/
+
+
+/*--- USING WORD-KEEP-ALL, IT IS ALMOST THE SAME THAT WORD-WRAP ---*/
+
+
+/*
+
+.box p{
+	word-break: keep-all;
+	display: inline;
+	border-bottom: 2px solid green;
+	color: #444;
+	font-size: 13px;
+}
+
+*/
+
+
+
+/*--- USING WORD-BREAK-ALL ---*/
+
+
+/*
+
+
+.box p{
+	word-break: keep-all;
+	display: inline;
+	border-bottom: 2px solid green;
+	color: #444;
+	font-size: 13px;
+}
+
+*/
+
+p{
+	width: 100px;
+	background-color: gray;
+	white-space: pre-line;
+	/*white-space: pre;*/
+	/*white-space: nowrap;*/
+	/*white-space: normal;*/
+}

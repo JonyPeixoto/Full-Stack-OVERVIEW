@@ -1,0 +1,24 @@
+/* IMPORT */
+/* VARIABLES */
+/**/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/**/
+.success, div {
+  background: green; }
+
+.dimensions, div {
+  width: 163px;
+  height: 900px;
+  margin: 0 auto; }
+
+/* EXTEND */
+div {
+  font-size: 30px; }
+
+/***/
+
+/*# sourceMappingURL=style6.css.map */

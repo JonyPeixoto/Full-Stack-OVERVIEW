@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section.bg{
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../images/bg.png');
+	background-size: cover;
+	background-position: center;
+}
+
+section.bg .call .cta{
+	width: 95%;
+	max-width: 600px;
+	padding: 10px 20px;
+	text-align: center;
+	background: #e7426b;
+	color: white;
+	font-size: 23px;
+	border-radius: 10px;
+	border-bottom: 5px solid #c64767;
+	text-decoration: none;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}

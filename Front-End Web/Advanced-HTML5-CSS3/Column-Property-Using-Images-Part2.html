@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+*{
+box-sizing: border-box;
+}
+.newspaper {
+	margin-top: 40px;
+	column-count: 2;
+	column-gap: 0px;
+	width: 100%;
+}
+
+.box {
+	width: 100%;
+	height: 100px;
+	background: green;
+	border: 3px solid red;
+	display: inline-block;
+	column-break-inside: avoid;
+}
+</style>
+</head>
+<body>
+
+<p><strong>Note:</strong> The colums propert is not supported in Internet Explorer 9 and earlier versions.</p>
+
+<div class="newspaper">
+  <div class="box"></div>
+  <div class="box"></div>
+  <div style="background:blue;height:400px;" class="box"></div>
+  <div class="box"></div>
+  	<div class="box"></div>
+  <div style="background:blue;height:200px;" class="box"></div>
+  <div class="box"></div>
+    <div class="box"></div>
+  <div style="background:blue;height:150px;" class="box"></div>
+  <div class="box"></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+/* IMPORT */
+
+@import 'reset';
+
+/**/
+
+/* MIXINS */
+
+@mixin changeColor($par){
+	background-color: $par;
+	margin-left: 90px;
+}
+
+@mixin setWidth($size){
+	width: $size;
+}
+
+/**/
+
+/* NESTING  AND VARIABLES */
+
+div{
+	@include changeColor(rgb(255,255,255));
+	@include setWidth(1000px); 
+	height: 300px;
+	a{
+		font-size: $font-Size;
+		color: red;
+		font-family: $family;
+	}
+	h2{
+		background: rgb(200,200,200);
+	}
+}
+
+/**/

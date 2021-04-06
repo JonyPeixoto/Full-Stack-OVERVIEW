@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+*
+*
+Style for the content of our website
+*
+*
+*/
+
+html,body{
+	height: 100%;
+}
+
+
+.bg{
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+
+	/*Backgrounds*/
+
+	background-color: blue;
+	background-image: url('../images/cybertimeup_bg.jpg');
+	background-size: cover /*contain, cover*/;
+	background-position:/*90px 90px*/ /*center, left top, left center, right top, -32px -32px, 50px 50px, left 30%, left -30%*/;
+	background-repeat: no-repeat /*no-repeat,repeat-x,repeat-y*/;
+
+}
+
+

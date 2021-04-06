@@ -1,0 +1,11 @@
+var container = document.getElementById('root');
+
+class Box extends React.Component{
+
+	render(){
+		return <h1>Hello box's class!</h1>
+	}
+
+}
+
+ReactDOM.render(<Box />,container);

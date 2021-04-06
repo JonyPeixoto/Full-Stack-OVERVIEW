@@ -1,0 +1,20 @@
+body {
+  background: #4a729c;
+}
+/* NESTING ON THE LESS */
+div h2 {
+  background: orange;
+}
+@media screen and (max-width: 768px) {
+  div h2 {
+    display: none;
+  }
+}
+div:hover {
+  background: red;
+}
+@media screen and (max-width: 768px) {
+  div {
+    background: purple;
+  }
+}

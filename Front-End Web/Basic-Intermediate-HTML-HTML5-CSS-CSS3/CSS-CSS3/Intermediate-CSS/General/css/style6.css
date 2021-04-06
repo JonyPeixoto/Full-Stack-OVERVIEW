@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+*
+*
+Style for the content of our website
+*
+*
+*/
+
+html,body{
+	height: 100%;
+}
+
+.test, .test1, .test2{
+	width: 300px;
+	margin-top: 30px;
+	margin-left: 30px;
+	display: inline-block;
+	height: 30px;
+	/* background-color: #ccc; */
+}
+
+.test1{
+	background-color: rgb(98,98,98);
+}
+
+.test2{
+	background-color: rgb(50,50,50);
+}
+
+
+/*----- PSEUDO CLASS: HOVER -----*/
+
+/*
+
+
+
+.test:hover{
+	height: 900px;
+	/*
+	position: absolute;
+	left: 90px;
+	top: 130px;
+	*/
+
+	/*
+
+	background-color:blue;
+}
+
+.test:hover,.test1,.test2{
+	vertical-align: top;
+}
+
+
+
+*/
+
+
+
+/*----- PSEUDO CLASS: ACTIVE -----*/
+
+/* ACTIVE IS USEFUL WHEN WE ARE LEFT BOTTOM PRESSED MOUSSE ON THE ELEMENT */
+
+/*
+
+
+.test:active{
+	background-color: black;
+}
+
+*/
+
+
+/*----- PSEUDO CLASS: FOCUS -----*/
+
+/* FOCUS IS USEFUL WHEN WE CLICK AND FOCUS ON THE ELEMENT OF OUR FORM */
+
+/* testarea,input
+
+
+
+.test:focus{
+	background-color: red;
+}
+
+.testarea1{
+	display: block;
+	width: 600px;
+	height: 400px;
+}
+
+
+
+*/
+
+
+
+/*----- PSEUDO CLASS: FOCUS -----*/
+
+
+/* NORMALLY, WE USE THROUGH IT THROUGH JAVASCRIPT 
+
+.link1:link{
+	color: orange;
+}
+
+.link1:visited{
+	color: purple;
+}
+
+
+.link1:link{
+	color: orange;
+}
+
+.link1{
+	color: blue;
+}
+
+
+
+*/
+
+
+
+
+
+
+

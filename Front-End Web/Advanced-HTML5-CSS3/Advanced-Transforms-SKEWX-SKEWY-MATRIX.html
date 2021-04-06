@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+<!-- KNEW -->
+
+div {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+div#myDiv {
+  -ms-transform: skewX(20deg); /* IE 9 */
+  -webkit-transform: skewX(20deg); /* Standard syntax */
+  transform: skewY(0deg) rotate(0); /* Standard syntax */
+  /* transform: skewX(20deg,10deg); */
+  transition:1s;
+  position:relative;
+  left:0;
+}
+
+div#myDiv:hover{
+left:90px;
+transform: skewY(20deg) rotate(56deg); /* Standard syntax */
+/* transform:skewX(90deg); */
+}
+</style>
+</head>
+<body>
+
+<h1>The skew() Method</h1>
+<p>The skew() method skews an element into a given angle.</p>
+
+<div>
+This a normal div element.
+</div>
+
+<div id="myDiv">
+This div element is skewed 20 degrees along the X-axis, and 10 degrees along the Y-axis.
+</div>
+
+<!-- MATRIX -->
+
+<!-- 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+div#myDiv {
+  -ms-transform: matrix(1, -0.3, 0, 1, 0, 0);
+ /* IE 9 */
+  -webkit- transform: matrix(1, -0.3, 0, 1, 0, 0);
+ /* Standard syntax */
+  transform: matrix(3, -9, 1, 3, 90, 90);
+
+  /*
+  transform: skewY(0deg) rotate(0); /* Standard syntax */
+  
+  /* transform: skewX(20deg,10deg); */
+  /*
+  transition:1s;
+  position:relative;
+  left:0;
+  */
+  
+/*
+}
+
+div#myDiv:hover{
+left:90px;
+transform: skewY(20deg) rotate(56deg); /* Standard syntax */
+/* transform:skewX(90deg); */
+}
+
+*/
+</style>
+</head>
+<body>
+
+<h1>The skew() Method</h1>
+<p>The skew() method skews an element into a given angle.</p>
+
+<div>
+This a normal div element.
+</div>
+
+<div id="myDiv">
+This div element is skewed 20 degrees along the X-axis, and 10 degrees along the Y-axis.
+</div>
+
+</body>
+</html>
+
+
+-->
+
+</body>
+</html>

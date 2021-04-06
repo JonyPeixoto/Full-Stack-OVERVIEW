@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Create Plugin JQuery</title>
+</head>
+<body>
+<p>Hello world</p>
+<span>Hello world</span>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+
+
+<!-- Plugin SIMPLES (NOT SO PROFESSIONAL) CREATED!
+
+
+<script>
+	$(function(){
+
+		/*
+
+		$.fn.applyColor = function(){
+			$(this).css('color','blue');
+		};
+
+		$('p').applyColor();
+
+		*/
+
+	})
+
+
+-->
+
+
+
+<!--Plugin PROFESSIONAL CREATED! -->
+
+<script src="js/applyColor.jquery.js"></script>
+	
+<script>
+	$(function(){
+		$('p,span').applyColor({
+			color:'green',
+			backgroundColor:'purple'
+		// OR IF YOU WANT USE RED COLOR ON THE SECOND 'HELLO WORLD'
+
+		// $('p,span').applyColor();
+
+
+		//OR 
+
+		//	$('p,span').applyColor({}) - WITHOUT COLOR AND ONLY USING THE COLORS OF THE 'APPLYCOLOR.JQUERY.JS'
+			
+
+		});
+
+	})
+		
+
+</script>
+
+<!--Final Plugin PROFESSIONAL CREATED!-->
+
+</body>
+</html>

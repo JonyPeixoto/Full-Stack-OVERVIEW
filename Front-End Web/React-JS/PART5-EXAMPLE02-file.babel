@@ -1,0 +1,26 @@
+var container = document.getElementById('root');
+
+class Box extends React.Component{
+
+	getName(){
+		return 'Thay';
+	}
+
+	printName(){
+		return <p>{this.getName()}</p>
+	}
+
+	render(){
+		return <h2>{this.printName()}</h2>
+	}
+
+}
+
+class Form extends React.Component{
+	render(){
+		return (<form><input type="text" /><input type="submit" /></form>)
+	}
+}
+
+ReactDOM.render(<div class="principal-react"><Form /><Box /><Box /><Box /></div>,container);
+

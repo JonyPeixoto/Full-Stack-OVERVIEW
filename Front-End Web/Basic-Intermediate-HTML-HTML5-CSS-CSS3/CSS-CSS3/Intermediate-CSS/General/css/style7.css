@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+*
+*
+Style for the content of our website
+*
+*
+*/
+
+html,body{
+	height: 100%;
+}
+
+ul{
+	list-style-position: inside;
+}
+
+/* According with element's type
+
+/*---PSEUDO CLASS---*/
+
+/*
+
+ul li:nth-of-type(2){
+	color: red;
+}
+
+
+/*
+
+ul span:nth-child(6){
+	color: red;
+}
+
+*/
+
+.box{
+	width: 100%;
+}
+
+.box > div{
+	box-sizing: border-box;
+	float: left;
+	width: 33.3%;
+	height: 400px;
+	background-color: red;
+	border: 1px solid black;
+}
+
+/*------ANOTHER WAY-----*/
+
+/*
+
+.box div{
+	box-sizing: border-box;
+	float: left;
+	width: 33.3%;
+	height: 400px;
+	background-color: red;
+	border: 1px solid black;
+}
+
+*/
+
+
+
+/*----- PSEUDO CLASS: WE TAKE THE LAST ELEMENT OF THE SAME TYPE -----*/
+
+/*
+
+
+.box div:last-of-type, .box p:last-of-type{
+	background-color: green;
+}
+
+
+*/
+
+
+
+/*-----ANOTHER WAY-----*/
+
+
+/*
+
+
+.box p:last-of-type{
+	color: rgb(200,200,200);
+}
+
+
+*/
+
+.box div:last-child p{
+	color: rgba(255,255,255,1);
+}
+
+
+/*-----ANOTHER WAY-----*/
+
+
+/*
+
+.box div:last-of-type p{
+	color: rgba(255,255,255,1);
+}
+
+*/
+
+
+/*------ PSEUDO CLASS: APPLY THE STYLE FOR ALL THE DIVS THAT NOT "ONE" CLASS;
+
+/*
+
+.box div:not(.one){
+	background-color: gold;
+}
+
+*/
+
+
+
+/*------ PSEUDO CLASS: EMPTY ------*/
+
+/*
+
+p:empty{
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+}
+
+*/
+
+
+
+/*----- PSEUDO CLASS: AFTER, BEFORE -----*/
+
+/*
+
+.p::after{
+	content:' Jony';
+	background-color: blue;
+}
+
+.p::before{
+	content: 'Jony ';
+}
+
+*/
+

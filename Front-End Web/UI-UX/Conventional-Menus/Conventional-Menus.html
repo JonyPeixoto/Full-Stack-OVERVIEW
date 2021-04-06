@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu | UI/UX</title>
+	<meta charset="utf-8" />
+
+
+	<!-- IF YOU USE ON MOBILE, USE METATAG BELOW -->
+
+	<!--
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+
+	-->
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo-desktop"><a href="/index.html">Logo</a></div><!--logo-desktop-->
+			<nav class="desktop">
+				<ul>
+					<li><a href="">Home</li>
+					<li><a href="">About</li>
+					<li><a href="">Contact</li>
+				</ul>
+			</nav><!--desktop-->
+			<nav class="mobile">
+				<div class="logo-mobile"><a href="/index.html">Logo</a></div><!--logo-mobile-->
+				<h3><i class="fa fa-bars"></i></h3>
+				<ul>
+					<li><a href="">Home</li>
+					<li><a href="">About</li>
+					<li><a href="">Contact</li>
+				</ul>
+			</nav><!--mobile-->
+			<div class="clear"></div>
+		</div><!--container-->
+	</header>
+	<script src="js/jquery.js"></script>
+	<script>
+		$(function(){
+			$('nav.mobile h3').click(function(){
+				$('nav.mobile ul').slideToggle();
+			})
+		})
+	</script>
+</body>
+</html>

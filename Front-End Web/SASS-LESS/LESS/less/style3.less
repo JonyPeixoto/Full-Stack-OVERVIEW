@@ -1,0 +1,25 @@
+@nice-blue: #5B83AD;
+@light-blue: @nice-blue - #111;
+//@light-blue: @nice-blue + #111;
+
+@width: 1;
+
+body {
+  background: @light-blue;
+}
+
+
+/* NESTING ON THE LESS */
+div{
+	//background: #888 + #333;
+	//background: #888 + rgb(100,200,200);
+	//background: rgb(255,0,0);
+	background: rgb(255,0,0) / 2;
+	//width: 300px;
+	//width: 300px - 200px;
+	//width: 10cm + 30cm;
+	//width: 10cm + 30mm;
+	//width: 10cm + 30mm + 100px;
+	width: percentage(@width);
+	height: 300px;
+}

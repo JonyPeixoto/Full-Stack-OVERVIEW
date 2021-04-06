@@ -1,0 +1,1 @@
+.success{background:green}.dimensions{width:600px/600px * 10%;height:900px;margin:0 auto}@mixin changeSizeFont(){font-size:30px}div{@extend .success;@extend .dimensions;@include changeSizeFont();}

@@ -1,0 +1,29 @@
+<script>
+
+/* USING VARIABLES */
+
+/*var person1 = new person('Jony','24','weight');*/
+
+//console.log(person1.name);
+
+
+/* USING FUNCTIONS */
+
+var person1 = new person('Jony','24',function(){
+	alert('Hey yo!');
+});
+
+person1.weight();
+
+
+/* USING VARIABLES */
+
+	function person(name,age,weight){
+		this.name = name;
+		this.age = age;
+		this.weight = weight;
+		console.log(this.name);
+		console.log(this.age);
+		console.log(this.weight);
+	}
+</script>

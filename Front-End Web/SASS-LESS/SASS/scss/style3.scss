@@ -1,0 +1,19 @@
+@import 'reset';
+
+/* NESTING  AND VARIABLES */
+
+div{
+	background: $colorBg;
+	width: 300px;
+	height: 300px;
+	a{
+		font-size: $font-Size;
+		color: red;
+		font-family: $family;
+	}
+	h2{
+		background: rgb(200,200,200);
+	}
+}
+
+/**/

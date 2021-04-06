@@ -1,0 +1,42 @@
+<html>
+    <body>
+        <script>
+            //Application dynamic calculator
+
+            //We want a starting number
+            //We want a signal (type of operation)
+            //We want a final number
+
+            var initialNumber = prompt('Enter the first number...');
+
+            var signal = prompt('Enter the sign of your operation...');
+
+            while(signal != '-' && signal != '+' && signal != '/' && signal != '*'){
+                 alert('Please enter the valid signal!');
+                 signal = prompt('Enter the signal of your operation...');
+            }
+
+            var finalNumber = prompt('Enter the final number...');
+
+            //Functions to convert a string to number.
+
+            initialNumber = parseInt(initialNumber);
+            finalNumber = parseInt(finalNumber);
+
+            var finalResult = 0;
+
+            if(signal == '+'){
+                finalResult = initialNumber + finalNumber;
+            }else if(signal == '-'){
+                finalResult = initialNumber - finalNumber;
+            }else if(signal == '/'){
+                finalResult = initialNumber / finalNumber;
+            }else if(signal == '*'){
+                finalResult = initialNumber * finalNumber;
+            }
+
+            alert('The final result is: '+ finalResult);
+
+        </script>
+    </body>
+</html>

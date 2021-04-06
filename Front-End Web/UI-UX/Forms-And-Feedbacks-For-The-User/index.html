@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Forms | UI/UX</title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+	<section class="form">
+		<div class="container">
+		<form>
+		<div class="form-group">
+			<span></span>
+			<input type="text" name="name" placeholder="Name...">
+		</div>
+		<div class="form-group">
+			<span></span>
+			<input type="text" name="email" placeholder="E-mail...">
+		</div>
+		<div class="form-group">
+			<span></span>
+			<textarea name="message" placeholder="Your message..."></textarea>
+		</div>
+		<div class="form-group">
+			<input type="submit" value="Send!">
+		</div>
+		</form>
+			<div class="box-success">Your message has been sent successfully!</div>
+		</div><!--container-->
+	</section>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+	$(function(){
+		$('form').submit(function(){
+
+			var error = false;
+			var name = $('[name=name]').val();
+			var email = $('[name=email]').val();
+			var message = $('[name=message]').val();
+			resetForm();
+			if(name == ''){
+				error = true;
+				var el = $('[name=name]');
+				el.parent().find('span').html('Please, enter your name.');
+				el.css('border','1px solid red');
+			}
+			if(email == ''){
+				error = true;
+				var el = $('[name=email]');
+				el.parent().find('span').html('Please, enter your e-mail.');
+				el.css('border','1px solid red');
+			}
+			if(message == ''){
+				error = true;
+				var el = $('[name=message]');
+				el.parent().find('span').html('Please, enter your message.');
+				el.css('border','2px solid red');
+			}
+			if(error == false){
+				$('.box-success').fadeIn(function(){
+					setTimeout(function(){
+						$('.box-success').fadeOut();
+					},5000);
+				});
+				$(this)[0].reset();
+			}
+
+			return false;
+		})
+
+		function resetForm(){
+			$('input[type=text],textarea').css('border','1px solid #ccc');
+			$('span').html('');
+		}
+
+	});
+</script>
+</body>
+</html>

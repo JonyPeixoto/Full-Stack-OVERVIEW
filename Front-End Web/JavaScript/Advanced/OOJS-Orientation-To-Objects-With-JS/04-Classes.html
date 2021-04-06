@@ -1,0 +1,62 @@
+<html>
+    <body>
+        <script>
+
+            // EXAMPLE 1 - CLASS 
+
+            /*
+
+            class Animal{
+                constructor(name){
+                    this.name = name;
+                }
+
+                printName(){
+                    return this.name;
+                }
+            }
+
+            animal = new Animal('Cat');
+
+            alert(animal.printName());
+
+            */
+
+
+            // EXAMPLE 2 - CLASS USING EXTEND
+
+            class Animal{
+                constructor(name){
+                    this.name = name;
+                }
+
+                printName(){
+                    return this.name;
+                }
+            }
+
+            class Dog extends Animal{
+                constructor(name){
+                    super(name);
+                    this.raca = "bulldog";
+                }
+
+                printRaca(){
+                    return this.raca;
+                }
+
+            }
+
+            dog = new Dog("Rocky");
+
+            alert(dog.printName(""));
+
+            /*
+            dog = new Dog("Maltes");
+
+            alert(dog.printRaca());
+            */
+
+        </script>
+    </body>
+</html>

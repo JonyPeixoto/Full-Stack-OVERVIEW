@@ -1,0 +1,32 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Advanced JS</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			p{
+				height: 1700px;
+			}
+			div{
+				width: 300px;
+				height: 300px;
+				background: red;
+			}
+		</style>
+	</head>
+	<body>
+			<p></p>
+		<div data-aos="flip-right" data-aos-duration="3000"></div>
+		<div style="background: green;" data-aos="flip-right" data-aos-duration="3000"></div>
+		<div style="background: blue;" data-aos="flip-right" data-aos-duration="3000"></div>
+		<div style="background: orange;" data-aos="fade-up" data-aos-duration="3000"></div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	</body>
+	</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+</head>
+<body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/push.js/1.0.12/push.min.js"></script>
+
+<script>
+
+	if(Push.Permission.get() != 'granted'){
+		Push.Permission.request();
+	}
+	if(Push.Permission.get() == "granted"){
+	Push.create('Hello of the CybertimeUP!', {
+		body: 'It is a notification',
+		icon:'icon.png',
+		timeout: 3000,				// Timeout before notification closed automatically.
+		//vibrate: [100, 100, 100],	// An array of vibration pulsed for mobile devices.
+		onClick: function() {
+			// Callback for when he notification is clicked.
+			window.location.href="https://cybertimeup.com";
+		}
+	}); //não existe uma vírgula aqui, coloque o ponto e vírgula para encerar ou deixe sem
+	}
+</script>
+</body>
+</html>

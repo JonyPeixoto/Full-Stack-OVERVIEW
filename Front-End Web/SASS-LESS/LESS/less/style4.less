@@ -1,0 +1,19 @@
+@base: #f04615;
+@width: 400px;
+
+
+/* NESTING ON THE LESS */
+div{
+	//background:lighten(@base, 10%);
+	//background:lighten(@base, 50%);
+	//background: spin(lighten(@base, 25%), 8);
+	@width: 200px;
+	width: @width;
+	background: saturate(@base,40%);
+	height: 300px;
+}
+
+p{
+	width: @width;
+	background: green;
+}

@@ -1,0 +1,11 @@
+.test{
+	width: 200px;
+	height: 200px;
+	overflow-y: scroll; /* has to be scroll, not auto */
+	-webkit-overflow-scrolling: touch;
+}
+
+.child{
+	width: 200px;
+	height: 900px;
+}

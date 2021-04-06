@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<style type="text/css">
+	*{margin: 0;padding: 0;box-sizing: border-box;}
+	html,body{height: 100%;}
+	.side-menu{
+		width: 200px;
+		height: 100%;
+		background: gray;
+	}
+
+	.menu-item{
+		position: relative;
+	}
+
+	.menu-item a{
+		display: block;
+		padding: 10px 15px;
+		border-bottom: 1px solid white;
+	}
+
+	.sub-menu{
+		display: none;
+		position: absolute;
+		min-width: 170px;
+		padding: 8px 12px;
+		background-color: #ccc;
+		left: 195px;
+		top: 0px;
+		z-index: 1;
+	}
+
+	.menu-item:hover .sub-menu{
+		display: block; 
+	}
+
+</style>
+
+	<div class="side-menu">
+		<div class="menu-item">
+			<a href="">Home</a>
+			<div class="sub-menu">
+				<a href="">My link #1</a>
+				<a href="">My link #2</a>
+			</div>
+		</div><!--menu-item-->
+		<div class="menu-item">
+			<a href="">About</a>
+		</div><!--menu-item-->
+		<div class="menu-item">
+			<a href="">Contact</a>
+		</div><!--menu-item-->
+	</div><!--side-menu-->
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 1100px;
+	padding: 0 2%;
+}
+
+
+/*  MAX-WIDTH:
+
+
+- RESPECT THE ORIGINAL DIMENSIONS(SIZE) OF THE IMAGE ON THE WEB  
+- USE CONTAINER + PERCENTUAL ON THE IMAGES BECAUSE INDEPENDENT OF THE BROWSER 
+	YOUR IMAGE WILL GET CORRECTLY.
+
+
+*/
+
+
+img{
+	max-width: 100%;
+}

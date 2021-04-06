@@ -1,0 +1,27 @@
+/* IMPORT */
+/* VARIABLES */
+/**/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/**/
+/* MIXINS */
+/**/
+/* NESTING  AND VARIABLES */
+div {
+  background-color: white;
+  margin-left: 90px;
+  width: 1000px;
+  height: 300px; }
+  div a {
+    font-size: 19px;
+    color: red;
+    font-family: tahoma; }
+  div h2 {
+    background: #c8c8c8; }
+
+/**/
+
+/*# sourceMappingURL=style4.css.map */

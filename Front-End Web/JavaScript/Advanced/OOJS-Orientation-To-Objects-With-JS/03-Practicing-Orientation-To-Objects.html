@@ -1,0 +1,113 @@
+<html>
+    <body>
+        <script>
+
+            // EXAMPLE 1 - DECLARING FUNCTIONS INTERACTING WITH OBJECTS
+
+            /*
+
+            function Person(){
+                this.name = "Jonathan";
+                this.age = 24; 
+                this.printName = function(number){
+                    alert(number);
+                }
+            }
+
+            var person = new Person();
+            var person_2 = new Person();
+
+            person_2.name = "Jenny";
+
+            person.printName(person_2.name);
+
+            */
+
+
+            // EXAMPLE 2 - INSTANCE A FUNCTION
+
+            /*
+
+            function Person(){
+                this.name = "Jonathan";
+                this.age = 24; 
+                this.printName = function(number){
+                    alert(number);
+                }
+            }
+
+            function Animal(name,weight){
+                this.name = name;
+                this.weight = weight;
+            }
+
+            animal = new Animal("Dog",'12kg');
+
+            animal2 = new Animal("Cat",'6kg');
+
+            alert(animal.name);
+
+            alert(animal2.weight);
+
+            */
+
+
+            //EXAMPLE 3 - VALIDATING INFORMATION WHEN OBJECT IS CREATED
+
+            /*
+
+            function Person(){
+                this.name = "Jonathan";
+                this.age = 24; 
+                this.printName = function(number){
+                    alert(number);
+                }
+            }
+
+            function Animal(name,weight){
+                if(name == undefined){
+                    name = 'Dog';
+                }
+                if(weight == undefined){
+                    weight = '5kg';
+                }
+                this.name = name;
+                this.weight = weight;
+            }
+
+            animal = new Animal('Cat');
+
+            alert(animal.name);
+
+            */
+
+
+            //EXAMPLE 4 - OBJECT AS PARAMETER OF THE FUNCTION
+
+            function Person(){
+                this.name = "Jonathan";
+                this.age = 24; 
+                this.printName = function(number){
+                    alert(number);
+                }
+                this.returnAnimal = function(animal){
+                    return animal;
+                }
+            }
+
+            function Animal(){
+                this.name = "dog";
+                this.raca = "Bulldog";
+            }
+
+            var person = new Person();
+
+            var animal = new Animal();
+
+            animal.raca = "Maltes";
+
+            alert(person.returnAnimal(animal).raca);
+
+        </script>
+    </body>
+</html>

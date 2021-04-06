@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Angular</title>
+</head>
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+	<p>
+	Name: <input ng-model="other_name">
+	</p>
+	<p>
+	Name: <input ng-model="name">
+	</p>
+	<p>The name entered in the input was: {{name}}</p>
+	<p>The name entered in the input was: {{other_name}}</p>
+	<div></div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script>
+var app = angular.module("myApp", []);
+app.controller('myCtrl', function($scope) {
+	$scope.name = "Jony Peixoto";
+	$scope.other_name = "Jonathan";
+});
+</script>
+
+</body>
+</html>

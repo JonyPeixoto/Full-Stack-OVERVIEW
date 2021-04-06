@@ -1,0 +1,38 @@
+/* IMPORT */
+
+@import 'reset';
+
+/**/
+
+.success{
+	background: green;
+}
+
+.dimensions{
+
+	width: 1000px * 0.1 + 100px;
+
+	//width: 200px - 37px;
+
+	// PIXEL + PERCENTUAL:
+
+	//width: calc(100px + 10%);
+	//width: 600px / 600 px * 10%;
+	
+	height: 900px;
+	margin: 0 auto;
+}
+
+@mixin changeSizeFont(){
+	font-size: 30px;
+}
+
+/* EXTEND */
+
+div{
+	@extend .success;
+	@extend .dimensions;
+	@include changeSizeFont();
+}
+
+/***/

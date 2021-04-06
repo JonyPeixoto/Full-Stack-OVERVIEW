@@ -1,0 +1,10 @@
+/* NESTING ON THE LESS */
+div {
+  width: 200px;
+  background: #ff3e06;
+  height: 300px;
+}
+p {
+  width: 400px;
+  background: green;
+}

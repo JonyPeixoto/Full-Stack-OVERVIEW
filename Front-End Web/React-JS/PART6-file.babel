@@ -1,0 +1,16 @@
+var container = document.getElementById('root');
+
+class Box extends React.Component{
+	render(){
+		return <h2>{this.props.children}</h2>
+	}
+}
+
+class Form extends React.Component{
+	render(){
+		return (<form><input type="text" /><input type="submit" /></form>)
+	}
+}
+
+ReactDOM.render(<div class="principal-react"><Form /><Box>Some random text</Box><Box name="Thay" /><Box name="Jenny" /></div>,container);
+

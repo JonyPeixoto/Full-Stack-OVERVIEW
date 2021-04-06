@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <script>
+            var birthYear = prompt("Please, enter your year of birth");
+
+            while(birthYear >= 2021){
+                alert('Please, enter your birth year correctly.');
+                birthYear = prompt("Please, enter your birth year");
+            }
+
+            var currentYear = prompt("And what is your year?");
+
+            var finalAge = currentYear - birthYear;
+
+            alert('The final age is: '+ finalAge);
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+/* IMPORT */
+
+@import 'reset';
+
+/**/
+
+.success{
+	background-color: green;
+}
+
+.dimensions{
+	width: 900px / 3px;
+	height: 900px;
+	margin: 0 auto;
+}
+
+@mixin changeSizeFont(){
+	font-size: 30px;
+}
+
+/* EXTEND */
+
+div{
+	@extend .success;
+	@extend .dimensions;
+	@include changeSizeFont();
+}
+
+/***/

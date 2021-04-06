@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* 
+	GRIDS 
+*/
+
+.g1{
+	width: 10%;
+}
+
+.g4{
+	width: 40%;
+}
+
+.g6{
+	width: 60%;
+}
+
+.g5{
+	width: 50%;
+}
+
+.g10{
+	width: 100%;
+}
+
+/*
+	BACKGROUNDS
+*/
+
+.b-green{background: green;}
+.b-red{background: red;}
+
+
+/*
+	COLORS
+*/
+
+.c-green{color: green;}
+.c-red{color: red;}
+
+/*
+	CONTAINER
+*/
+
+.container{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 2%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*
+	ALIGNMENTS
+*/
+
+.txt-left{text-align: left;}
+.txt-center{text-align: center;}
+.txt-right{text-align: right;}
