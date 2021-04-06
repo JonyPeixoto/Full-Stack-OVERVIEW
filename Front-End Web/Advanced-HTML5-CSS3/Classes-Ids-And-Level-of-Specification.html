@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Classes, IDs And Level of Specfication</title>
+	<style type="text/css">
+		/* MORE SPECIFIC
+
+		header#header_menu{
+			background: blue;
+			height: 100px;
+		}
+
+		*/
+
+
+		/*
+
+		#header_menu{
+			background-color: green;
+		}
+
+		*/
+
+		.style1,
+		.style2{
+			background: orange;
+		}
+
+		/* OR IT COULD BE...
+
+		.style1{
+			background: orange;
+		}
+
+		.style2{
+			background: orange;
+		}
+
+		*/
+
+	</style>
+</head>
+<body>
+	<!-- "ID" IS USED ONLY ONCE / "CLASS" IS USED 1,2,3,... WE CAN USE SEVERAL TIME! -->
+
+	<!-- EXAMPLE 1 -->
+
+	<!--
+
+	<header id="header_menu">
+		<h2 style="text-align: center;">Hello world</h2>
+	</header>
+
+	-->
+
+	<!-- EXAMPLE 2 -->
+
+	<!--
+
+	<header>
+		<h2 class="style1">Hello world</h2>
+		<h2 class="style2">Hello world</h2>
+		<h2 class="style3">Hello world</h2>
+	</header>
+
+	-->
+
+
+	<!-- EXAMPLE 3 -->
+
+	<header class="style1" id="header_menu">
+		<h2 class="style3">Hello world</h2>
+	</header>
+	<br />
+		<h2 class="style1">Hello world</h2>
+		<h2 class="style2">Hello world</h2>
+	<header class="other_header">
+		
+	</header>
+
+</body>
+</html>
