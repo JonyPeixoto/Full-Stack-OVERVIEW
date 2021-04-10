@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+/* FORM 1
+
+div[myattr]{
+    width: 500px;
+    height: 500px;
+    background: green;
+}
+
+*/
+
+
+/* FORM 2 */
+
+div[class]{
+    width: 500px;
+    height: 500px;
+    background: green;
+}
+
+mytag.one{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: blue;
+}
+
+
+
+

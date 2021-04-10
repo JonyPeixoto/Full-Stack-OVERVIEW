@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+.clear{clear: both;}
+
+.box{
+    width: 500px;
+    height: 500px;
+    background: red;
+}
+
+.content{
+    transition: 1s;
+}
+
+.box:hover .content{
+    color: green;
+    background: gray;
+}
+
+input{
+    transition: 1s;
+    width: 100px;
+    height: 100px;
+}
+
+input:focus{
+    width: 200px;
+    height: 200px;
+    background: green;
+}

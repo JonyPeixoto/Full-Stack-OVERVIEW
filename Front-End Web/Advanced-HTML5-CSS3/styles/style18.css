@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+.box{
+    width: 500px;
+    height: 200px;
+    background: orange;
+}
+
+*:not(.box){
+    width: 100px;
+    height: 200px;
+    background: red;
+}
+
+/* PSEUDO CLASSE
+
+.child{
+    background: red;
+}
+
+*/
+
+/* PROPRIETY BELOW, IT IS FUNTIONAL FOR NTH-CHILD */
+
+/*
+
+.box .child:nth-of-type(2n + 1){
+    background: green;
+}
+
+*/
+
+
+
+/* PSEUDO CLASSES */
+
+/*
+
+.box .child:nth-of-type(2){
+    background: green;
+}
+
+*/
+
+
+

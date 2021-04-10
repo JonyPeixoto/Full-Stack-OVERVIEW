@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+.border{
+	width: 200px;
+    height: 200px;
+
+    /* 
+    border: 1px solid black;
+    
+    border: 10px dashed black;
+
+    OR
+
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(255,0,0);
+
+
+	*/
+
+
+	border-top: 3px solid red;
+	border-bottom: 3px solid red;
+	/*
+	border-left: 3px solid red;
+	border-right: 3px solid red;
+	*/
+}

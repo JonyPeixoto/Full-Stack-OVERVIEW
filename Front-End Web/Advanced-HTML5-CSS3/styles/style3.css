@@ -1,0 +1,17 @@
+header.header1 p{
+	color: orange;
+}
+
+/* THE LEVEL OF SPECIFICATION BELOW, IT IS THE SAME THAT ABOVE */
+
+/*
+
+header.header1 > p{
+
+}
+
+*/
+
+p{
+	color: red !important;
+}
