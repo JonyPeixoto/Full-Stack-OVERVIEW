@@ -26,11 +26,6 @@ The purpose of this repository is to organize 3 categories into which my practic
 <img height="70" width="100" src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/vue.jpg" alt="vue">
 <img height="70" width="140" src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/reactjs.png" alt="reactjs">
 </p>
-
-* HTML
-* CSS
-* javascript
-* Python
 * jquery
 * fontawesome
 * Google Fonts
