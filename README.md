@@ -1,33 +1,33 @@
 # Full Stack Web OVERVIEW
 ![NPM](https://img.shields.io/npm/l/react)
 
-Este repositório foi criado para colocar em prática os conhecimentos adquiridos nos cursos de HTML5, CSS3, Javascript, PHP entre outras linguagens adquiridos de forma autodidata de acordo com as documentações oficiais das linguagens cujo foco estão em <b>exercícios práticos e projetos básicos</b>.
+This repository was created to put into practice the knowledge acquired from the main programming languages in the world, HTML5, CSS3, Javascript, PHP among other languages acquired in a self-taught way according to the official documentation of the languages whose focus is on <b> practical exercises and basic projects</b>.
 
-# Sobre repositórios
+# About repositories
 
-O objetivo desse repositório é organizar 3 categorias em que foi separado meus estudos práticos em programação. São elas:
+The purpose of this repository is to organize 3 categories into which my practical studies in programming were separated. Are they:
 
-* Front-End
-  * Princípios fundamentais e básicos de Lógica de Programação, HTML, CSS, Design Responsivo, Web Design, Photoshop, UI / UX, JavaScript, Frameworks JS, ES6, Sass, Less.
-* Back-End
-  * Focado em PHP, hospedagem, banco de dados, SEO Analytics, MVC, Segurança da Informação.
+* Front End
+   * Fundamentals and Basics of Programming Logic, HTML, CSS, Responsive Design, Web Design, Photoshop, UI / UX, JavaScript, Frameworks JS, ES6, Sass, Less.
+* Back End
+   * Focused on PHP, Hosting, Database, SEO Analytics, MVC, Information Security.
 * Full-Stack
-  * Focado nos desenvolvimentos que envolvem tanto o front-end quanto o back-end. 
+   * Focused on developments involving both frontend and backend.
 
-# Tecnologias utilizadas
+# Technologies used
 
 * HTML
-* CSS 
-* Javascript
+* CSS
+* javascript
 * Python
-* Jquery
-* Fontawesome
-* Google Fonts 
+* jquery
+* fontawesome
+* Google Fonts
 
-# Autor
+# Author
 <b>Jonathan Pereira Peixoto (Jony Peixoto)</b>
 
-Site Oficial: https://jonypeixoto.com
+Official Website: https://jonypeixoto.com
 
 
 
