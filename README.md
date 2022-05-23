@@ -24,7 +24,7 @@ The purpose of this repository is to organize 3 categories into which my practic
 <img src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/python.jpg" alt="Hey, I'm Jony !">
 <img src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/nodejs.jpg" alt="Hey, I'm Jony !">
 <img src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/vue.jpg" alt="Hey, I'm Jony !">
-<img src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/reactjs.jpg" alt="Hey, I'm Jony !">
+<img src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/reactjs.png" alt="Hey, I'm Jony !">
 </p>
 
 * HTML
