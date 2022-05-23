@@ -17,14 +17,14 @@ The purpose of this repository is to organize 3 categories into which my practic
 # Technologies used
 
 <p>
-<img src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/html.jpg" alt="Hey, I'm Jony !">
-<img src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/css.jpg" alt="Hey, I'm Jony !">
-<img src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/js.jpg" alt="Hey, I'm Jony !">
-<img src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/php.jpg" alt="Hey, I'm Jony !">
-<img src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/python.jpg" alt="Hey, I'm Jony !">
-<img src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/nodejs.jpg" alt="Hey, I'm Jony !">
-<img src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/vue.jpg" alt="Hey, I'm Jony !">
-<img src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/reactjs.png" alt="Hey, I'm Jony !">
+<img height="70" width="50" src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/html.jpg" alt="html">
+<img height="70" width="50" src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/css.jpg" alt="css">
+<img height="70" width="50" src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/js.jpg" alt="js">
+<img height="70" width="50" src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/php.jpg" alt="php">
+<img height="70" width="140" src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/python.jpg" alt="python">
+<img height="70" width="170" src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/nodejs.jpg" alt="nodejs">
+<img height="70" width="100" src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/vue.jpg" alt="vue">
+<img height="70" width="140" src="https://github.com/jonypeixoto/jonypeixoto/raw/main/assets/reactjs.png" alt="reactjs">
 </p>
 
 * HTML
