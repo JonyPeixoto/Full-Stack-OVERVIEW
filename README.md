@@ -5,7 +5,7 @@ This repository was created to put into practice the knowledge acquired from the
 
 # About repositories
 
-The purpose of this repository is to organize 3 categories into which my practical studies in programming were separated. Are they:
+The purpose of this repository is to organize 3 categories into which my practical studies in programming were separated. Such as:
 
 * <b>Front End Web</b>
    * Fundamentals and Basics of Programming Logic, HTML, CSS, Responsive Design, Web Design, Photoshop, Premiere, After Effects, UI / UX, JavaScript, Frameworks JS, ES6, Sass, Less.
