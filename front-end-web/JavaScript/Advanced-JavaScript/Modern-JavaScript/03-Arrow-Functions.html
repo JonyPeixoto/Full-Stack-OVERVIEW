@@ -1,0 +1,78 @@
+<html>
+    <body>
+        <script>
+
+        /* We Declare Function In This Form WITHOUT ARROW FUNCTIONS
+               
+        function tests(){
+
+        }
+
+        */
+
+
+        /* DECLARING FUNCTIONS USING ARROW FUNCTIONS */
+
+        /* EXAMPLE 1
+
+        const tests = (parameter)=>{
+            alert(parameter);
+        }
+
+        tests('Hello world!');
+
+        */
+
+
+
+        /* EXAMPLE 2 - ONLY FUNCTIONS WITHOUT TEXTS INCLUDED */
+
+        // PAR means PARAMETER OF THE FUNCTION, SIMILAR TO EXAMPLE ABOVE
+
+        /*
+
+        const tests = (par)=>{
+            par();
+        }
+
+        tests(()=>{
+            alert('Hello world!');
+        });
+
+        */
+
+
+
+        /* EXAMPLE 3 - FUNCTIONS INCLUDING TEXTS */
+
+        // PAR means PARAMETER OF THE FUNCTION, SIMILAR TO EXAMPLE ABOVE
+
+        /*
+
+        const tests = (par)=>{
+            par();
+        }
+
+        tests('text',()=>{
+            alert('Hello world!');
+        });
+
+        */
+
+
+        
+        /* EXAMPLE 4 - FUNCTIONS INCLUDING TEXTS AND MORE PARAMETERS */
+
+        // PAR means PARAMETER OF THE FUNCTION, SIMILAR TO EXAMPLE ABOVE
+
+        const tests = (text,par)=>{
+            par(text);
+        }
+
+        tests('Hello world!',(text)=>{
+            alert(text);
+        });
+
+        </script>
+    </body>
+</html>

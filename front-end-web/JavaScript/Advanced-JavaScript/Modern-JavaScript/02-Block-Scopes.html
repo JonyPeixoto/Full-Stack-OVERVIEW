@@ -1,0 +1,35 @@
+<html>
+    <body>
+        <script>
+                /* Without Use Block Scope */
+
+                /*
+
+                function tests(){
+                    var name = 'Jonathan';
+                    console.log(name);
+                }
+
+                tests();
+
+                */
+
+
+                /* Using Block Scope */
+                // BLOCK SCOPE is used to organize the code.
+
+                {
+                    let name = 'Jonathan';
+
+                    let tests = function (){
+                        console.log('Hello!');
+                    }
+
+                    tests();
+
+                }
+
+
+        </script>
+    </body>
+</html>

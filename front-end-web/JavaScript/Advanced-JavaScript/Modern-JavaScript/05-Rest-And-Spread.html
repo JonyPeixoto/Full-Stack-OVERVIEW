@@ -1,0 +1,72 @@
+<html>
+    <body>
+        <script>
+
+        // SPREAD
+
+        /*
+
+        var names = [
+            {
+                name:'Jony'
+            },
+            {
+                name: 'Jenny'
+            }
+        ]
+
+        const objects = [...names,{
+            name:'Thay'
+        }];
+
+        console.log(objects);
+
+        */
+
+
+        // REST
+
+        /* EXAMPLE 1
+
+        function tests(...names){
+            console.log(names);
+        }
+
+        tests(1,2,3,4,5,6);
+
+        */
+
+
+        /* EXAMPLE 2 - using indice: name 
+
+        function tests(...names){
+            console.log(names);
+        }
+
+        tests(1,2,3,4,5,6,{name:'Jonathan'});
+
+        */
+
+
+        /* EXAMPLE 3 - using array 
+
+        function tests(...names){
+            console.log(names);
+        }
+
+        tests([1,2,3,4,5]);
+
+        */
+
+
+        /* EXAMPLE 4 - using array and specific indice */
+
+        function tests(...number){
+            console.log(number[0][0]);
+        }
+
+        tests([1,2,3,4,5]);
+        
+        </script>
+    </body>
+</html>

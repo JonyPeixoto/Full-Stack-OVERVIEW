@@ -1,0 +1,36 @@
+<html>
+    <body>
+        <style>
+            .box{
+                width: 200px;
+                height: 200px;
+                background-color: blue;
+                margin-left: 0;
+            }
+            .animLeft{
+                transition: 1s;
+                margin-left: 90px;
+                margin-top: 20px;
+                background-color: green;
+            }
+        </style>
+        <div class="box"></div>
+       <script>
+           var box = document.querySelectorAll('.box')[0];
+
+           /* EXECUTING ANIMATION ON SPECIFIC TIME
+
+           setTimeout(()=>{
+               box.classList.add('animLeft');
+           },1000);
+
+           */
+
+           /* EXECUTING ANIMATION ON CLICK */
+
+           box.addEventListener('click',()=>{
+            box.classList.add('animLeft');
+           })
+       </script>
+    </body>
+</html>

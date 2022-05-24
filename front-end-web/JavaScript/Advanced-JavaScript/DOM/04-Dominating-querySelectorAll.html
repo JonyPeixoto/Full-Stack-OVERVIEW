@@ -1,0 +1,35 @@
+<html>
+    <body>
+
+        <!-- If I use CSS intead of querySelectorAll
+
+        <style>
+            .tests .inside-tests{
+                color: red;
+            }
+        </style>
+
+        -->
+
+       <div class="tests">
+            <div class="inside-tests">Text</div>
+       </div>
+       <div class="tests">
+            <div class="inside-tests">Text2</div>
+       </div>
+       <script>
+           var els = document.querySelectorAll('.tests');
+
+           // MANIPULATING COLOR
+
+           //els[0].style.color = 'red';
+           //els[0].style.color = 'green';
+
+           // MANIPULATING TEXTS
+
+           //els[0].innerHTML = 'Hi';
+           els[0].innerHTML = '<div class="inside-tests-via-js">Hi2</div>';
+
+       </script>
+    </body>
+</html>

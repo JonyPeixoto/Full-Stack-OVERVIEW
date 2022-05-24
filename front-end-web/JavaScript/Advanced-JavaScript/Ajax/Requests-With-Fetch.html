@@ -1,0 +1,34 @@
+<html>
+    <body>
+        <script>
+
+        /* EXAMPLE 1 - AJAX TRADITIONAL */
+
+        /*
+            
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+        .then(response=> response.json())
+        .then(json=>console.log(json));
+
+        */
+
+        /* EXAMPLE 2 - POST REQUISITIOn */
+
+        fetch('https://jsonplaceholder.typicode.com/posts',{
+            method:'POST',
+            body: JSON.stringify({
+                title: 'CybertimeUP',
+                body: 'My content',
+                userId: 10
+            }),
+            headers:{
+                'Content-Type': 'application/json; charset=UTF-8'
+            }
+        })
+        .then(response=> response.json())
+        .then(json=>console.log(json));
+
+
+        </script>
+    </body>
+</html>

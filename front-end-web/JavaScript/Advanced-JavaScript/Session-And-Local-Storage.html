@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+</head>
+<body>
+
+	<script>
+
+	window.onload = function(){
+
+		/* SESSION STORAGE */
+
+		/*
+
+		if(typeof(Storage) !== "undefined"){
+			alert('The browser is compatible with storage');
+			initialize();
+		} else {
+			alert('Update your browser...');
+		}
+
+		function initialize(){
+			if(sessionStorage.getItem("name") !== null){
+				alert("Hello, "+ sessionStorage.name + ", Welcome back :)");
+			}else{
+				alert('Hello! It is your first visit on our site :)');
+				sessionStorage.name = "Jony";
+			}
+		}
+
+		*/
+
+
+
+		/* LOCAL STORAGE */
+
+
+		if(typeof(Storage) !== "undefined"){
+			alert('The browser is compatible with storage');
+			initialize();
+		} else {
+			alert('Update your browser...');
+		}
+
+		function initialize(){
+			if(localStorage.getItem("name") !== null){
+				alert("Hello, "+ localStorage.name + ", Welcome back :)");
+			}else{
+				alert('Hello! It is your first visit on our site :)');
+				localStorage.name = "Jony";
+			}
+		}
+
+
+	}
+	</script>
+</body>
+</html>

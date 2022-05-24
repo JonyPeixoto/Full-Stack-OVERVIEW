@@ -1,0 +1,83 @@
+<html>
+    <body>
+        <!-- Manipulating CSS Through ID 
+
+        <div id="box"></div>
+
+        -->
+
+        <!-- Manipulating CSS Through Classes -->
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+    </body>
+    <script>
+
+        /* Manipulating CSS Using ID
+
+        // el = element
+        var el = document.getElementById('box');
+        el.style.width = 100;
+        el.style.height = 100;
+        // OBS.: CSS, YOU USE: background-color
+        el.style.backgroundColor = 'blue';
+        // OBS.: CSS, YOU USE: margin-left 
+        el.style.marginLeft = 200;
+
+        //OBSERVATIONS
+
+        //CSS: margin-left
+        //JavaScript: marginLeft
+
+        //CSS: background-color
+        //JavaScript: backgroundColor
+
+        /* SEARCHING MORE STYLES
+        el.style. */
+
+        
+        // Manipulating CSS Through Classes
+
+        /* EXAMPLE 1 - CSS THROUGH CLASSES
+
+        var elements = document.getElementsByClassName('box');
+
+        var el = elements[0];
+
+        el.style.width = 100;
+        el.style.height = 100;
+        // OBS.: CSS, YOU USE: background-color
+        el.style.backgroundColor = 'red';
+        // OBS.: CSS, YOU USE: margin-left 
+        el.style.marginLeft = 200;
+
+        */
+
+        /* EXAMPLE 2 - USING DYNAMIC LOOPING */
+
+        var elements = document.getElementsByClassName('box');
+
+        for(var i = 0; i < elements.length; i++){
+            var el = elements[i];
+
+            el.style.width = 100;
+            el.style.height = 100;
+            // OBS.: CSS, YOU USE: background-color
+            el.style.backgroundColor = 'red';
+            // OBS.: CSS, YOU USE: margin-left 
+            el.style.marginLeft = 200;
+            el.style.marginTop = 10;
+            el.style.borderWidth = 2;
+            el.style.borderColor = 'blue';
+            //el.style.borderStyle = 'solid';
+            el.style.borderStyle = 'dotted';
+        }
+        
+    </script>
+
+</html>

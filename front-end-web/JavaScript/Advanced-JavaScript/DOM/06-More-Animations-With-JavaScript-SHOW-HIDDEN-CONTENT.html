@@ -1,0 +1,102 @@
+<html>
+    <body>
+        <style>
+           .content h2 span{
+               font-size: 13px;
+               cursor: pointer;
+           }
+
+           .content p{
+               overflow: hidden;
+               height: 0;
+               transition: 1s;
+           }
+
+           .content2 h2 span{
+               font-size: 13px;
+               cursor: pointer;
+           }
+
+           .content2 p{
+               overflow: hidden;
+               height: 0;
+               transition: 1s;
+           }
+
+           .content3 h2 span{
+               font-size: 13px;
+               cursor: pointer;
+           }
+
+           .content3 p{
+               overflow: hidden;
+               height: 0;
+               transition: 1s;
+           }
+
+           .show{
+               height: 200px !important;
+           }
+        </style>
+        <div class="content">
+            <h2>Content's title <span>Learn more!</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam risus eros, iaculis sed ligula eu, ullamcorper aliquet risus. Vestibulum odio tortor, ultricies non dapibus nec, elementum a nibh. Fusce ac sem sed enim dapibus volutpat eu in turpis. Nullam eu finibus ipsum, id mattis augue. Sed et laoreet arcu. Integer sagittis erat non purus gravida consectetur. Fusce at tortor a lorem bibendum viverra. Sed varius ut enim sit amet viverra. Curabitur convallis odio fermentum, volutpat purus id, vestibulum metus. Mauris commodo turpis massa, vitae placerat orci euismod vel. Pellentesque massa nisl, bibendum a rhoncus eu, laoreet ut tortor. Sed id tellus posuere, aliquam quam at, porta elit. Sed vehicula felis et ipsum convallis ultricies id eget massa. Cras sit amet tempus odio, vitae consectetur elit. Sed eu dolor eget libero tempor mollis at quis eros.</p>
+        </div>
+
+        <div class="content2">
+            <h2>Content's 2 title <span>Learn more!</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam risus eros, iaculis sed ligula eu, ullamcorper aliquet risus. Vestibulum odio tortor, ultricies non dapibus nec, elementum a nibh. Fusce ac sem sed enim dapibus volutpat eu in turpis. Nullam eu finibus ipsum, id mattis augue. Sed et laoreet arcu. Integer sagittis erat non purus gravida consectetur. Fusce at tortor a lorem bibendum viverra. Sed varius ut enim sit amet viverra. Curabitur convallis odio fermentum, volutpat purus id, vestibulum metus. Mauris commodo turpis massa, vitae placerat orci euismod vel. Pellentesque massa nisl, bibendum a rhoncus eu, laoreet ut tortor. Sed id tellus posuere, aliquam quam at, porta elit. Sed vehicula felis et ipsum convallis ultricies id eget massa. Cras sit amet tempus odio, vitae consectetur elit. Sed eu dolor eget libero tempor mollis at quis eros.</p>
+        </div>
+
+        <div class="content3">
+            <h2>Content's 3 title <span>Learn more!</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam risus eros, iaculis sed ligula eu, ullamcorper aliquet risus. Vestibulum odio tortor, ultricies non dapibus nec, elementum a nibh. Fusce ac sem sed enim dapibus volutpat eu in turpis. Nullam eu finibus ipsum, id mattis augue. Sed et laoreet arcu. Integer sagittis erat non purus gravida consectetur. Fusce at tortor a lorem bibendum viverra. Sed varius ut enim sit amet viverra. Curabitur convallis odio fermentum, volutpat purus id, vestibulum metus. Mauris commodo turpis massa, vitae placerat orci euismod vel. Pellentesque massa nisl, bibendum a rhoncus eu, laoreet ut tortor. Sed id tellus posuere, aliquam quam at, porta elit. Sed vehicula felis et ipsum convallis ultricies id eget massa. Cras sit amet tempus odio, vitae consectetur elit. Sed eu dolor eget libero tempor mollis at quis eros.</p>
+        </div>
+       <script>
+          var span = document.querySelector('.content span')
+
+
+          span.addEventListener('click',function(){
+              var content = document.querySelector('.content p')
+
+              if(content.classList.contains('show')){
+                  span.innerHTML = 'Learn more!';
+                  content.classList.remove('show');
+              }else{
+                  span.innerHTML = 'Hide';
+                  content.classList.add('show');
+              }
+          });
+
+          var span = document.querySelector('.content2 span')
+
+
+          span.addEventListener('click',function(){
+              var content = document.querySelector('.content2 p')
+
+              if(content.classList.contains('show')){
+                  span.innerHTML = 'Learn more!';
+                  content.classList.remove('show');
+              }else{
+                  span.innerHTML = 'Hide';
+                  content.classList.add('show');
+              }
+          });
+
+          var span = document.querySelector('.content3 span')
+
+
+          span.addEventListener('click',function(){
+              var content = document.querySelector('.content3 p')
+
+              if(content.classList.contains('show')){
+                  span.innerHTML = 'Learn more!';
+                  content.classList.remove('show');
+              }else{
+                  span.innerHTML = 'Hide';
+                  content.classList.add('show');
+              }
+          });
+       </script>
+    </body>
+</html>
