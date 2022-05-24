@@ -12,7 +12,7 @@ The purpose of this repository is to organize 3 categories into which my practic
 * <b>Back End</b>
    * Focused on PHP, Hosting, Database, SEO Analytics, MVC, Information Security.
 * <b>Full-Stack</b>
-   * Focused on developments involving both frontend and backend.
+   * Focused on developments involving both front end and back end.
 
 ![](https://github.com/JonyPeixoto/jonypeixoto/blob/main/assets/wow.png)  
 
