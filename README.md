@@ -28,33 +28,45 @@ The purpose of this repository is to organize 3 categories into which my practic
 
 <br>
 
+### <img alt="GIF" src="https://github.com/JonyPeixoto/jonypeixoto/blob/main/assets/coin.gif" width="25vw" /> Blockchain Applications:
+
+<a href="https://docs.soliditylang.org" target="_blank">
+  <code><img alt="Solidity" height="30" width="100" src="https://img.shields.io/badge/Solidity-e6e6e6?style=for-the-badge&logo=solidity&logoColor=black" /></code>
+</a>
+<a href="https://ethereum.org" target="_blank">
+  <code><img alt="Ethereum" height="30" width="100" src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white" /></code>
+</a>
+<a href="https://bitcoin.com" target="_blank">
+  <code><img alt="Bitcoin" height="30" width="100" src="https://img.shields.io/badge/Bitcoin-000000?style=for-the-badge&logo=bitcoin&logoColor=white" /></code>
+</a>
+
 ### <img alt="GIF" src="https://github.com/JonyPeixoto/jonypeixoto/blob/main/assets/coin.gif" width="25vw" /> Web/Mobile Applications:
 
-<a href="https://www.jonypeixoto.com">
+<a href="https://w3schools.com/html" target="_blank">
   <code><img alt="HTML" height="30" width="100" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" /></code>
 </a>
-<a href="https://www.jonypeixoto.com">
+<a href="https://www.markdownguide.org/getting-started/">
   <code><img alt="Markdown" height="30" width="120" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white" /></code>
 </a>
-<a href="https://www.jonypeixoto.com">
+<a href="https://w3schools.com/css">
   <code><img alt="CSS" height="30" width="100" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" /></code>
 </a>
-<a href="https://www.jonypeixoto.com">
+<a href="https://jonypeixoto.com">
   <code><img alt="JavaScript" height="30" width="120" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" /></code>
 </a>
-<a href="https://www.jonypeixoto.com">
+<a href="https://typescriptlang.org">
   <code><img alt="Typescript" height="30" width="120" src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" /></code>
 </a
-<a href="https://www.jonypeixoto.com">
+<a href="https://php.net">
   <code><img alt="PHP" height="30" width="80" src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" /></code>
 </a>
-<a href="https://www.jonypeixoto.com">
+<a href="https://sass-lang.com">
   <code><img alt="SASS" height="30" width="80" src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" /></code>
 </a>
-<a href="https://www.jonypeixoto.com">
+<a href="https://lesscss.org">
   <code><img alt="LESS" height="30" width="100" src="https://img.shields.io/badge/less-2B4C80?style=for-the-badge&logo=less&logoColor=white" /></code>
 </a>
-<a href="https://www.jonypeixoto.com">
+<a href="https://reactjs.org">
   <code><img alt="ReactJS" height="30" width="100" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" /></code>
 </a>
 <a href="https://www.jonypeixoto.com">
@@ -66,29 +78,28 @@ The purpose of this repository is to organize 3 categories into which my practic
 <a href="https://www.jonypeixoto.com">
   <code><img alt="NodeJS" height="30" width="100" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" /></code>
 </a>
-<a href="https://www.jonypeixoto.com">
+<a href="https://angular.io">
   <code><img alt="Angular" height="30" width="100" src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white" /></code>
 </a>
-<a href="https://www.jonypeixoto.com">
+<a href="https://vuejs.org">
   <code><img alt="VueJS" height="30" width="100" src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D" /></code>
 </a>
-<a href="https://www.jonypeixoto.com">
+<a href="https://expo.dev">
   <code><img alt="Expo" height="30" width="100" src="https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37" /></code>
 </a>
-<a href="https://www.jonypeixoto.com">
+<a href="https://flutter.dev">
   <code><img alt="Flutter" height="30" width="100" src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" /></code>
 </a>
-<a href="https://www.jonypeixoto.com">
+<a href="https://developer.android.com/studio">
   <code><img alt="Android Studio" height="30" width="150" src="https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white" /></code>
 </a>
-<a href="https://www.jonypeixoto.com">
+<a href="https://kotlinlang.org">
   <code><img alt="Kotlin" height="30" width="100" src="https://img.shields.io/badge/kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white" /></code>
 </a>
-<a href="https://www.jonypeixoto.com">
+<a href="https://developer.apple.com/swift">
   <code><img alt="IOS" height="30" width="80" src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white" /></code>
 </a>
-
-<a href="https://www.jonypeixoto.com">
+<a href="https://nextjs.org">
   <code><img alt="NextJS" height="30" width="100" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" /></code>
 </a>
 
@@ -96,7 +107,9 @@ The purpose of this repository is to organize 3 categories into which my practic
 
 ### <img alt="GIF" src="https://github.com/JonyPeixoto/jonypeixoto/blob/main/assets/coin.gif" width="25vw" /> Database, Server, Domain and Hosting:
 
+<a href="https://jonypeixoto.com">
 <code><img height="32" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/FileZilla_logo.svg/1200px-FileZilla_logo.svg.png" alt="FileZilla"/></code>
+</a>
 <code><img height="32" src="https://seeklogo.com/images/X/xampp-logo-1C1A9E3689-seeklogo.com.png" alt="Xampp"/></code>
 <code><img height="32" src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white" alt="Cloudlare"/></code>
 <code><img height="30" width="100" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/></code>
