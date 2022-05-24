@@ -58,7 +58,7 @@ The purpose of this repository is to organize 3 categories into which my practic
   <code><img alt="ReactJS" height="30" width="100" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" /></code>
 </a>
 <a href="https://www.jonypeixoto.com">
-  <code><img alt="React Native" height="30" width="120" src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" /></code>
+  <code><img alt="React Native" height="30" width="130" src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" /></code>
 </a>
 <a href="https://www.jonypeixoto.com">
   <code><img alt="JQuery" height="30" width="100" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" /></code>
@@ -85,7 +85,7 @@ The purpose of this repository is to organize 3 categories into which my practic
   <code><img alt="Flutter" height="30" width="100" src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" /></code>
 </a>
 <a href="https://www.jonypeixoto.com">
-  <code><img alt="Android Studio" height="30" width="130" src="https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white" /></code>
+  <code><img alt="Android Studio" height="30" width="140" src="https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white" /></code>
 </a>
 <a href="https://www.jonypeixoto.com">
   <code><img alt="Kotlin" height="30" width="100" src="https://img.shields.io/badge/kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white" /></code>
