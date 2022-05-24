@@ -1,0 +1,28 @@
+--- REGISTER FORMS
+
+USER SENT FORM. 
+
+{
+    1- E-mail is correct?
+        If it is OKAY
+        {
+            Name is correct?
+            If it is OKAY  
+            {
+                CPF is correct?
+                If it is OKAY   
+                {
+                    EXECUTE REGISTER
+                }if it is not 
+                {
+                    The message appears saying it's wrong!
+                }
+            }If it is not
+            {
+                The message appears saying it's wrong!
+            }
+        }if it is not 
+        {
+            The message appears saying it's wrong!
+        }
+}
