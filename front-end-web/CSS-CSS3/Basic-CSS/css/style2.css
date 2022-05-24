@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* PRIORITY STYLE
+
+div.menu{
+	width: 400px;
+}
+
+*/
+
+a{
+	text-decoration: none;
+}
+
+.menu{
+	width: 900px;
+	margin: 30px auto;
+	text-align: center;
+
+	/* INTERN (SPACE) STYLE
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	*/
+
+}
+
+.menu a{
+	color: red;
+	padding-right: 8px;
+	border-right: 3px solid red;
+	font-size: 20px;
+	margin: 0 10px;
+
+}
+
+
+/* STYLE ORDER
+
+.menu > a{
+	color: red;
+}
+
+*/
+
+

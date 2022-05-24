@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+*
+*
+Style for the website's content
+*
+*
+*/
+
+html,body{
+	height: 100%;
+}
+
+.center{
+	box-sizing: content-box; 
+	width: 1280px;
+	margin: 0 auto;
+	/* padding-left: 30px; */
+	background-color: gray;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
+.article{
+	width: 100%;
+	margin-bottom: 40px;
+
+	/*	(Up and Down) Design
+	margin: 40px 30px;
+	*/
+
+	/* Clockwise Design 
+	margin: 50px 30px 50px 30px;
+	*/
+
+	/* margin-right: 80px; */
+	/* margin-left: 80px; */
+	/* margin-top: 50px; */
+	/* margin-bottom: 50px; */
+	/* width: 1280px; */
+	/* margin-left: 30px; */
+
+	/*
+	margin-top: 50px;
+	margin-bottom: 50px;
+	*/
+}

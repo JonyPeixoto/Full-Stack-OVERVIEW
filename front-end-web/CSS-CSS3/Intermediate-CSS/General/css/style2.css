@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+*
+*
+Style for the content of our website
+*
+*
+*/
+
+html,body{
+	height: 100%;
+}
+
+.text[type=text]{
+	background: green;
+}
+
+input[type=submit]{
+	background-color: blue;
+}
+
+/*
+
+IT MUST BE EQUAL.
+
+
+a[href="http://www.google.com"]{
+	background-color: yellow;
+}
+
+[href="http://www.google.com"]{
+	background-color: red;
+}
+
+
+
+a[href*="google"], a[href*="cybertimeup"]{
+	background-color: blue;
+}
+
+
+a[attr*="goo"]{
+	background-color: red;
+}
+
+_____________________________________________________*/
+
+
+
+/*
+
+SEARCH BETWEEN SPACES OF THE ATTRIBUTE.
+
+
+a[attr~="google"]{
+	background-color: blue;
+}
+
+*/
+
+
+
+/*
+
+FIND THE WORD "GOOGLE" IN ANY PLACE.
+
+
+a[attr~="google"]{
+	background-color: blue;
+}
+
+_________________________________________________________*/
+
+
+
+/*CORRECTLY USE ATTR|=*   WHEN BEGIN THE WORD GOOGLE WITH TRACE THE WORD CYBERTIMEUP/
+
+a[attr|="google"]{
+	background-color: yellow;
+}
+
+
+
+/* INCORRECTLY USE ATTR|=    BECAUSE CYBERTIMEUP IT IS THE SECOND WORD*/
+
+
+/*
+
+a[attr|="cybertimeup"]{
+	background-color: yellow;
+}
+
+_________________________________________________________________*/
+
+
+
+/* WHEN WE BEGIN WITH THE WORD, WE USE "GOO" INSTEAD OF "GOOGLE"
+
+
+a[attr^="goo"]{
+	background-color: red;
+}
+
+_________________________________________________________________*/
+
+
+
+/* WHEN WE FINISH WITH THE WORD, WE USE ATTR$=
+
+
+
+a[attr$="google"]{
+	background-color: yellow;
+}
+
+
+*/
+
+
+

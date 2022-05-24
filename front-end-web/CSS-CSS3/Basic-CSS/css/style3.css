@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Style for content of my website */
+
+/* .article can be substituted by div.article */
+
+.article{
+	width: 1280px;
+	background-color: rgb(200,200,200); 
+	padding: 40px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+/*Color could be:
+
+	color: red;
+	color:#000000;		(Black color)
+	color:rgb(250,250,200);
+*/
+
+
+/* __________________________________ */
+
+
+/*Other font's types:
+
+font-size: 100%;
+
+OR
+
+font-size: 1em;
+
+______________________
+
+font-size: 200%;
+
+OR
+
+font-size: 2em;
+
+*/
+
+.article h1{
+	color:rgb(3, 48, 252);
+	font-size: 23px;
+	font-family: tahoma;
+	font-style: normal;
+	font-weight: normal;	
+	/*font-variant: small-caps;*/
+}
+
+.article p{
+	color: #b4b4b4;
+	text-align: left;
+	font-size: 17px;
+	font-family: tahoma;
+
+	/* Other forms of use fonts:
+	
+	font-family: 'tahoma';
+	font-family: "tahoma";
+
+	But, 
+
+	font-family: tahoma;
+
+	It is easiest of all! 
+
+	*/
+
+	font-style: normal;
+	font-weight: bold;
+	line-height: 40px;
+	margin-top: 12px;
+}

@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+*
+*
+Style for the website's content
+*
+*
+*/
+
+html,body{
+	height: 100%;
+}
+
+.type1{
+	color: rgb(100,100,100);
+}
+
+.link_{
+	font-size: 30px;
+}
+
+.type2{
+	font-size: 40px;
+}
+
+
+
+

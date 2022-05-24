@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+*
+*
+Style for the website's content
+*
+*
+*/		
+
+html,body{
+	height: 100%;
+}
+
+.box,.box2{
+	width: 300px;
+	margin: 0 auto;
+	background: gray;
+
+	/*
+	overflow-x: hidden;
+	overflow-y: hidden;
+	overflow-x: auto; 
+	overflow-y: auto; 
+	overflow: visible; 
+	overflow: scroll; 	
+	overflow: auto; 
+	*/	
+}
+
+.box p,.box2 p{
+	width: 100%;
+}
+
+.box2{
+	background-color: red; 
+	margin-top:20px;
+	display: block;
+}
+

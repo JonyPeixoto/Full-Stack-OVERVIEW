@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+<style type="text/css">
+	/*
+	The comment I want from my CSS
+	*/
+	/*Here I start the test style*/
+	.test{
+		background: blue;
+		width: 100px;
+		height: 100px;
+	}
+	/*Here It is the final of the test style*/
+</style>

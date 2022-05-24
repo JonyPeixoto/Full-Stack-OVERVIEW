@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+*
+*
+Style for the content of our website
+*
+*
+*/
+
+* IMPORTING FROM THE OWN DIRECTORY*/
+
+@font-face{
+	font-family: "Open Sans";
+	src:url('../fonts/OpenSans-Italic.ttf');
+}
+
+
+html,body{
+	height: 100%;
+	font-family: "Open Sans";
+}
+
+form *{
+	font-family: "Open Sans";
+}
+
+/*--- WHEN WE USE 'IMPORTANT' THE SPECIFICATION LEVEL STOP TO EXIST ---*/
+/*--- WHEN MORE THAN 1 ARE USED THE 'IMPORTANT' THEN THE SPECIFICATION LEVEL COUNTS BACK ---*/
+
+/*
+
+
+.box p{
+	font-family: "Open Sans" !important;
+}
+
+.text{
+	font-family: tahoma !important;
+}
+
+
+*/
+
+
+
+/*--- IMPORTING FROM THE OWN DIRECTORY ---*/
+
+/*
+
+h2{
+	font-family: "My font";
+}
+
+*/
