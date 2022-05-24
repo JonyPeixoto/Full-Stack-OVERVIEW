@@ -8,7 +8,7 @@ This repository was created to put into practice the knowledge acquired from the
 The purpose of this repository is to organize 3 categories into which my practical studies in programming were separated. Are they:
 
 * <b>Front End</b>
-   * Fundamentals and Basics of Programming Logic, HTML, CSS, Responsive Design, Web Design, Photoshop, UI / UX, JavaScript, Frameworks JS, ES6, Sass, Less.
+   * Fundamentals and Basics of Programming Logic, HTML, CSS, Responsive Design, Web Design, Photoshop, Premiere, After Effects, UI / UX, JavaScript, Frameworks JS, ES6, Sass, Less.
 * <b>Back End</b>
    * Focused on PHP, Hosting, Database, SEO Analytics, MVC, Information Security.
 * <b>Full-Stack</b>
