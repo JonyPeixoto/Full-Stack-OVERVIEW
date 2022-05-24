@@ -224,10 +224,6 @@ The purpose of this repository is to organize 3 categories into which my practic
 	
 <br/><br/>
 
-* jquery
-* fontawesome
-* Google Fonts
-
 # Author
 <b>Jonathan Pereira Peixoto (Jony Peixoto)</b>
 
