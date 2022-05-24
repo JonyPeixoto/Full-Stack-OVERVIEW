@@ -102,6 +102,9 @@ The purpose of this repository is to organize 3 categories into which my practic
 <a href="https://nextjs.org">
   <code><img alt="NextJS" height="30" width="100" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" /></code>
 </a>
+<a href="https://wordpress.com">
+  <code><img alt="WordPress" height="30" width="100" src="https://img.shields.io/badge/Wordpress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" /></code>
+</a>
 
 <br/><br/>
 
@@ -139,8 +142,9 @@ The purpose of this repository is to organize 3 categories into which my practic
 
 <br/><br/>
 
-### <img alt="GIF" src="https://github.com/JonyPeixoto/jonypeixoto/blob/main/assets/coin.gif" width="25vw" /> Utilities/Productivity:
+### <img alt="GIF" src="https://github.com/JonyPeixoto/jonypeixoto/blob/main/assets/coin.gif" width="25vw" /> Design, Utilities & Productivity:
 
+<code><img height="30" width="130" src="https://img.shields.io/badge/Behance-0054F7?style=for-the-badge&logo=behance&logoColor=white" alt="Behance"/></code>
 <code><img height="30" width="190" src="https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26?style=for-the-badge&logo=Adobe%20Creative%20Cloud&logoColor=white" alt="Adobe Creative Cloud"/></code>
 <code><img height="30" width="180" src="https://img.shields.io/badge/Adobe-Photoshop-31A8FF?style=for-the-badge&logo=Adobe-Photoshop&labelColor=0a446b&logoWidth=15" alt="Adobe Photoshop"/></code>
 <code><img height="30" width="180" src="https://img.shields.io/badge/Adobe-Premiere%20Pro-9999FF?style=for-the-badge&logo=Adobe-Premiere%20Pro&labelColor=2f2f5b&logoWidth=15" alt="Adobe Premiere"/></code>
@@ -155,6 +159,7 @@ The purpose of this repository is to organize 3 categories into which my practic
 <code><img height="32" src="https://seeklogo.com/images/F/font-awesome-logo-3010FE2434-seeklogo.com.png" alt="Font Awesome"/></code>
 <code><img height="32" src="https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white" alt="Gulp"/></code>
 <code><img height="32" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/109_Elementor_logo_logos-512.png" alt="Elementor"/></code>
+<code><img height="32" src="https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=google%20analytics&logoColor=white" alt="Google Analytics"/></code>
 
 <br/> <br/>
 
@@ -236,7 +241,10 @@ The purpose of this repository is to organize 3 categories into which my practic
 # Author
 <b>Jonathan Pereira Peixoto (Jony Peixoto)</b>
 
-Official Website: https://jonypeixoto.com
+<a href="https://www.jonypeixoto.com" target="_blank">
+  <code><img alt="Jony Peixoto Official Website" height="30" width="130" src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white" /></code>
+</a>
+
 
 
 
