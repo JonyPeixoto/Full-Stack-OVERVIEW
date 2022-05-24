@@ -54,9 +54,18 @@ The purpose of this repository is to organize 3 categories into which my practic
 <a href="https://jonypeixoto.com">
   <code><img alt="JavaScript" height="30" width="120" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" /></code>
 </a>
+<a href="https://jquery.com">
+  <code><img alt="JQuery" height="30" width="100" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" /></code>
+</a>
+<a href="https://json.org">
+  <code><img alt="JSON" height="30" width="90" src="https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white" /></code>
+</a>
+<a href="https://webpack.js.org">
+  <code><img alt="Webpack" height="30" width="120" src="https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white" /></code>
+</a>
 <a href="https://typescriptlang.org">
   <code><img alt="Typescript" height="30" width="120" src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" /></code>
-</a
+</a>
 <a href="https://php.net">
   <code><img alt="PHP" height="30" width="80" src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" /></code>
 </a>
@@ -84,6 +93,9 @@ The purpose of this repository is to organize 3 categories into which my practic
 <a href="https://vuejs.org">
   <code><img alt="VueJS" height="30" width="100" src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D" /></code>
 </a>
+<a href="https://electronjs.org">
+  <code><img alt="ElectronJS" height="30" width="100" src="https://img.shields.io/badge/Electron-2B2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9" /></code>
+</a>
 <a href="https://expo.dev">
   <code><img alt="Expo" height="30" width="100" src="https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37" /></code>
 </a>
@@ -103,7 +115,7 @@ The purpose of this repository is to organize 3 categories into which my practic
   <code><img alt="NextJS" height="30" width="100" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" /></code>
 </a>
 <a href="https://wordpress.com">
-  <code><img alt="WordPress" height="30" width="100" src="https://img.shields.io/badge/Wordpress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" /></code>
+  <code><img alt="WordPress" height="30" width="120" src="https://img.shields.io/badge/Wordpress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" /></code>
 </a>
 
 <br/><br/>
@@ -113,7 +125,7 @@ The purpose of this repository is to organize 3 categories into which my practic
 <a href="https://jonypeixoto.com">
 <code><img height="32" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/FileZilla_logo.svg/1200px-FileZilla_logo.svg.png" alt="FileZilla"/></code>
 </a>
-<code><img height="32" src="https://seeklogo.com/images/X/xampp-logo-1C1A9E3689-seeklogo.com.png" alt="Xampp"/></code>
+<code><img height="32" src="https://img.shields.io/badge/Xampp-F37623?style=for-the-badge&logo=xampp&logoColor=white" alt="Xampp"/></code>
 <code><img height="32" src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white" alt="Cloudlare"/></code>
 <code><img height="30" width="100" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/></code>
 <code><img height="32" src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/></code>
@@ -130,6 +142,8 @@ The purpose of this repository is to organize 3 categories into which my practic
 ### <img alt="GIF" src="https://github.com/JonyPeixoto/jonypeixoto/blob/main/assets/coin.gif" width="25vw" />  Artificial Intelligence, Machine Learning & Internet of Things:
 	
 <code><img height="32" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python"/></code>
+<code><img height="32" src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" alt="Jupyter"/></code>
+<code><img height="32" src="https://img.shields.io/badge/conda-342B029.svg?&style=for-the-badge&logo=anaconda&logoColor=white" alt="Anaconda"/></code>
 <code><img height="32" src="https://img.shields.io/badge/google%20assistant-4285F4?style=for-the-badge&logo=google%20assistant&logoColor=white" alt="Google Assistant"/></code>
 <code><img height="32" src="https://img.shields.io/badge/amazon%20alexa-52b5f7?style=for-the-badge&logo=amazon%20alexa&logoColor=white" alt="Amazon Alexa"/></code>
 
@@ -147,19 +161,20 @@ The purpose of this repository is to organize 3 categories into which my practic
 <code><img height="30" width="130" src="https://img.shields.io/badge/Behance-0054F7?style=for-the-badge&logo=behance&logoColor=white" alt="Behance"/></code>
 <code><img height="30" width="190" src="https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26?style=for-the-badge&logo=Adobe%20Creative%20Cloud&logoColor=white" alt="Adobe Creative Cloud"/></code>
 <code><img height="30" width="180" src="https://img.shields.io/badge/Adobe-Photoshop-31A8FF?style=for-the-badge&logo=Adobe-Photoshop&labelColor=0a446b&logoWidth=15" alt="Adobe Photoshop"/></code>
-<code><img height="30" width="180" src="https://img.shields.io/badge/Adobe-Premiere%20Pro-9999FF?style=for-the-badge&logo=Adobe-Premiere%20Pro&labelColor=2f2f5b&logoWidth=15" alt="Adobe Premiere"/></code>
-<code><img height="30" width="180" src="https://img.shields.io/badge/Adobe-After%20Effects-CF96FD?style=for-the-badge&logo=Adobe-After-Effects&labelColor=393665&logoWidth=15" alt="Adobe After Effects"/></code>
+<code><img height="30" width="190" src="https://img.shields.io/badge/Adobe-Premiere%20Pro-9999FF?style=for-the-badge&logo=Adobe-Premiere%20Pro&labelColor=2f2f5b&logoWidth=15" alt="Adobe Premiere"/></code>
+<code><img height="30" width="190" src="https://img.shields.io/badge/Adobe-After%20Effects-CF96FD?style=for-the-badge&logo=Adobe-After-Effects&labelColor=393665&logoWidth=15" alt="Adobe After Effects"/></code>
 <code><img height="30" width="150" src="https://img.shields.io/badge/Adobe%20Lightroom-31A8FF?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white" alt="Adobe Lighroom"/></code>
 <code><img height="30" width="120" src="https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6" alt="Adobe XD"/></code>
 <code><img height="30" width="100" src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white" alt="Canvas"/></code>
 <code><img height="32" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/seo-2265518-1898455.png" alt="SEO"/></code>
   <code><img height="32" src="https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Drive Google"/></code>
 <code><img height="32" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvFruzSMJRcWHdJSDWeiwndqINBExXqN2xsg&usqp=CAU" alt="UI/UX"/></code>
-<code><img height="32" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqmvZTqvHS8t2uo8WwEORGUa9sYXWwwp-AYQ&usqp=CAU" alt="Awesome Webpack"/></code>
 <code><img height="32" src="https://seeklogo.com/images/F/font-awesome-logo-3010FE2434-seeklogo.com.png" alt="Font Awesome"/></code>
 <code><img height="32" src="https://img.shields.io/badge/GULP-%23CF4647.svg?style=for-the-badge&logo=gulp&logoColor=white" alt="Gulp"/></code>
 <code><img height="32" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/109_Elementor_logo_logos-512.png" alt="Elementor"/></code>
 <code><img height="32" src="https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=google%20analytics&logoColor=white" alt="Google Analytics"/></code>
+<code><img height="32" src="https://img.shields.io/badge/Miro-050038?style=for-the-badge&logo=Miro&logoColor=white" alt="Miro"/></code>
+<code><img height="32" src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" alt="Trello"/></code>
 
 <br/> <br/>
 
@@ -216,10 +231,13 @@ The purpose of this repository is to organize 3 categories into which my practic
   <code><img alt="Mac OS" height="30" width="100" src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0" /></code>
 </a>
 <a href="https://www.jonypeixoto.com">
-  <code><img alt="Windows" height="30" width="100" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" /></code>
+  <code><img alt="Windows" height="30" width="120" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" /></code>
 </a>
 <a href="https://www.jonypeixoto.com">
-  <code><img alt="Kali Linux" height="30" width="80" src="https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)" /></code>
+  <code><img alt="Kali Linux" height="30" width="120" src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" /></code>
+</a>
+<a href="https://www.jonypeixoto.com">
+  <code><img alt="Linux" height="30" width="80" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /></code>
 </a>
 <a href="https://www.jonypeixoto.com">
   <code><img alt="Tails" height="30" width="100" src="https://img.shields.io/badge/Tails%20-56347C?&style=for-the-badge&logo=tails&logoColor=white)" /></code>
