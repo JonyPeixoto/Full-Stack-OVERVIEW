@@ -7,11 +7,11 @@ This repository was created to put into practice the knowledge acquired from the
 
 The purpose of this repository is to organize 3 categories into which my practical studies in programming were separated. Are they:
 
-* Front End
+* <b>Front End</b>
    * Fundamentals and Basics of Programming Logic, HTML, CSS, Responsive Design, Web Design, Photoshop, UI / UX, JavaScript, Frameworks JS, ES6, Sass, Less.
-* Back End
+* <b>Back End</b>
    * Focused on PHP, Hosting, Database, SEO Analytics, MVC, Information Security.
-* Full-Stack
+* <b>Full-Stack</b>
    * Focused on developments involving both frontend and backend.
 
 ![](https://github.com/JonyPeixoto/jonypeixoto/blob/main/assets/wow.png)  
