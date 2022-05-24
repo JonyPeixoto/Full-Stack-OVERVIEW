@@ -11,7 +11,7 @@ The purpose of this repository is to organize 3 categories into which my practic
    * Fundamentals and Basics of Programming Logic, HTML, CSS, Responsive Design, Web Design, Photoshop, Premiere, After Effects, UI / UX, JavaScript, Frameworks JS, ES6, Sass, Less.
 * <b>Back End Web</b>
    * Focused on PHP, Hosting, Database, SEO Analytics, MVC, Information Security.
-* <b>Full-Stack Web</b>
+* <b>Full Stack Web</b>
    * Focused on developments involving both front end and back end.
 * <b>Apps</b>
    * Focused on developments involving apps from design to creation.
