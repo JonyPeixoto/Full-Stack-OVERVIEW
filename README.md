@@ -118,7 +118,7 @@ The purpose of this repository is to organize 3 categories into which my practic
   <code><img alt="WordPress" height="30" width="120" src="https://img.shields.io/badge/Wordpress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" /></code>
 </a>
 <a href="https://www.w3schools.com/c/">
-  <code><img alt="C" height="30" width="80" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" /></code>
+  <code><img alt="C" height="30" width="70" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" /></code>
 </a>
 <a href="https://www.w3schools.com/CPP/default.asp">
   <code><img alt="C++" height="30" width="80" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /></code>
