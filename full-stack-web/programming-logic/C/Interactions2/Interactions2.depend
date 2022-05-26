@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604080449 source:d:\programs\programming logic\programming-logic\c\interactions2\main.c
+	<stdio.h>
+	<stdlib.h>
+

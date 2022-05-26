@@ -1,0 +1,28 @@
+----- REGISTRATION FORM
+
+USER SENT A FORM.
+
+{
+	1 - Is email correct ?	
+		If it is correct...
+		{
+			Is name correct ?
+			If it is correct...
+			{
+				Is CPF correct ?
+				If it is correct...
+				{
+					REGISTER USER
+				} if it is not correct...
+				{
+					The message appears saying it is wrong!
+				}
+			} if it is not correct...
+			{
+				The message appears saying it is wrong!
+			}
+		} if it is not correct...
+		{
+			The message appears saying it is wrong!
+		}
+}

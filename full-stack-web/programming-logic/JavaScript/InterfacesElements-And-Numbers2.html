@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.son{
+			width: 500px;
+			height: 500px;
+			border: 1px solid black;
+		}
+		.son-of-the-son{
+			width: 0;
+			background: purple;
+			height: 100px;
+		}
+	</style>
+</head>
+<body>
+<div class="father">
+	<div class="son">
+		
+	</div>
+	<div class="son">
+		
+	</div>
+	<div class="son">
+		<div class="son-of-the-son"></div>
+	</div>
+	<div class="son">
+		<div class="son-of-the-son cheer up"></div>
+	</div>
+	<div class="son">
+		
+	</div>
+	<div class="son">
+		
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+	//1) Verify if... Is there son element?
+	//2) Is there a class x in the son element?
+	//IF YES, APPLY WIDTH BY ANIMATING THE ELEMENT!
+	$(function(){
+
+		$('.father .son').each(function(){
+			var obj = $(this).find('.son-of-the-son');
+			if(obj.length > 0){
+				//console.log('There is son!');
+				if(obj.hasClass('cheer up')){
+					//Finish in the final of the logic!
+				obj.animate({width:'100px'},3000,function(){
+					console.log('We finish');
+				});
+			  }
+			}
+		})
+
+
+	})
+</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604076794 source:d:\programs\programming logic\programming-logic\c\while\main.c
+	<stdio.h>
+	<stdlib.h>
+

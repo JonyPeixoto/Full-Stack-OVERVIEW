@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604086692 source:d:\programs\programming logic\programming-logic\c\game-c-rock-paper-or-scissors\main.c
+	<stdio.h>
+	<stdlib.h>
+

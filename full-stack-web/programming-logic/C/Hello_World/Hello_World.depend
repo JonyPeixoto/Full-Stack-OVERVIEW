@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604012319 source:d:\programs\programming logic\programming-logic\c\hello_world\main.c
+	<stdio.h>
+	<stdlib.h>
+

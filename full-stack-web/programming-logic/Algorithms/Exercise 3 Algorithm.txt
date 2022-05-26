@@ -1,0 +1,10 @@
+Goal: Dinner
+
+------- Be at home
+			Are you hungry ?
+				Okay, I can dinner.
+					Do we have food 
+						YES, LET'S DINNER.
+
+------- IF I AM NOT AT HOME, I HAVE TO GO HOME.
+		HAVE YOU GOT HOME ? OKAY, WE EXECUTE THE SAME ACTION OF THE FIRST.

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.header{
+			width: 100%;
+			height: 50px;
+			border: 2px solid black;
+		}
+	</style>
+</head>
+<body>
+<div class="header"></div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+	$(function(){
+
+		
+		function verifySizeAndApplyColor(){
+				var screenSize = $(window).width();
+				if(screenSize < 580){
+					$('.header').css('background','blue');
+				}
+				else if(screenSize < 768){
+					$('.header').css('background','red');
+				}else if(screenSize < 1024){
+					$('.header').css('background','green');
+				}else{
+					$('.header').css('background','white');
+				}
+		}
+
+		verifySizeAndApplyColor();
+		
+		setInterval(function(){
+			verifySizeAndApplyColor();
+		},3000);
+
+		$(window).resize(function(){
+			verifySizeAndApplyColor();
+		}
+
+	})
+</script>
+</body>
+</html>
