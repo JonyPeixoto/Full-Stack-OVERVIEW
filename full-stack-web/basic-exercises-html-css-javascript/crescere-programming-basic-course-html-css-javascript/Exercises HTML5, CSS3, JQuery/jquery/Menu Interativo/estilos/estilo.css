@@ -1,0 +1,20 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#brasil{
+	background-image:url(bandeiras/brasil.png);
+}
+
+#canada{
+	background-image:url(bandeiras/canada.jpg);
+}
+
+#colombia{
+	background-image:url(bandeiras/colombia.jpg);
+}
+
+#franca{
+	background-image:url(bandeiras/franca.jpg);
+}

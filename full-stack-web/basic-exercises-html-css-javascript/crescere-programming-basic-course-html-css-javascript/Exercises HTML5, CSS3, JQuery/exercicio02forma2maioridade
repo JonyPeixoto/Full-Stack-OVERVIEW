@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<htm lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>EXEMPLO 4 - JAVASCRIPT</title>
+        <script type="text/javascript">
+        <!--
+            var i, num, temp = 18, count= 0;
+            count++;
+
+            for(i=0; i < 10 ; i++)
+            {
+               num = parseInt(prompt("Digite um número: "));
+
+               if( num > temp )
+                {
+                temp = num
+                }
+                if(count == 18)
+                {
+                    alert("Maior de Idade"+count);
+                }
+                else
+                {
+                    alert("Menor de Idade"+count);
+                }
+            }
+            alert("O maior número é "+temp);
+        //-->
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

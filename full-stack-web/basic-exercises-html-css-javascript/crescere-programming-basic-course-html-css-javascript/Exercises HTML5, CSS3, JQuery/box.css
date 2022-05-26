@@ -1,0 +1,23 @@
+.conteudo{
+	border: 1px solid red;
+	width: 300px;
+	margin: auto;
+	padding: 50px;
+	border-radius: 10%;
+	text-align: left
+	
+}
+
+#esquerda {
+	float: left;
+	background-color:blue
+}
+
+#direita {
+	float: right;
+	background-color: red
+}
+
+.clear {
+	clear:both
+}

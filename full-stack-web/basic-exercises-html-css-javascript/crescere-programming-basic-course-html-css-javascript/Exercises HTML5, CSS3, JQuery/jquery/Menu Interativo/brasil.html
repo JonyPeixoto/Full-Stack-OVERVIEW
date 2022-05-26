@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exemplo JQuery</title>
+		<meta charset="UTF-8" />
+		
+		<link rel="stylesheet" type="text/css" href="./estilos/estilo.css" />
+		<link rel="stylesheet" type="text/css" href="./estilos/menu.css" />
+		< type="text/java" src="jquery-3.4.1.min.js"></>
+		< type="text/java" src="funcoes.js"></>
+	</head>
+	<body id="brasil">
+		<div id="iconExpand">
+			<a href="#" onclick="toggleMenu();"><img src="./estilos/icones/ic_expand.png" height="30" /></a>
+		</div>
+		<div id="divMenu">
+			<ul id="menu">
+				<li><a id="iconExpandir-brasil"href="#" onclick="expandirSubMenu('brasil' , 'pais');"
+				><img src="./estilos/icones/ic_plus.png" height="10" /></a> <a href="brasil.html">Brasil</a></li>
+				<li><a href="#" onclick="expandirSubMenu('brasil');"><img src="./estilos/icones/ic_plus.png" height="10" /></a> <a href="brasil.html">Brasil</a></li>
+				<input type="hidden" id="brasilAberto" name="brasil" value="0" />
+				<ul id="cidades-brasil" class="submenu">
+					<li><a href="riodejaneiro.html">Rio de Janeiro</a></li>
+					<li><a href="saopaulo.html">São Paulo</a></li>
+					<li><a href="fozdoiguacu.html">Foz do Iguaçu</a></li>					
+				</ul>
+				
+				<li><a href="#" onclick="expandirSubMenu('canada');"><img src="./estilos/icones/ic_plus.png" height="10" /></a> <a href="canada.html">Canadá</a></li>
+					<input type="hidden" id="canadaAberto" name="canada" value="0" />
+					<ul id="cidades-canada" class="submenu">
+					<li><a href="vancouver.html">Vancouver</a></li>
+					<li><a href="toronto.html">Toronto</a></li>									
+				</ul>				
+				<li><a href="#" onclick="expandirSubMenu('colombia');"><img src="./estilos/icones/ic_plus.png" height="10" /></a> <a href="colombia.html">Colômbia</a></li>
+				<ul id="cidades-colombia" class="submenu">
+					<li><a href="cartagena.html">Cartagena</a></li>
+					<li><a href="sanandres.html">San Andrés</a></li>									
+				</ul>				
+				<li><a href="#" onclick="expandirSubMenu('franca');"><img src="./estilos/icones/ic_plus.png" height="10" /></a> <a href="franca.html">França</a></li>
+				<ul id="cidades-franca" class="submenu">
+					<li><a href="paris.html">Paris</a></li>												
+				</ul>				
+			</ul>
+		</div>
+	</body>
+</html>

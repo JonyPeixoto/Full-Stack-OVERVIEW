@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+#esquerdacima{
+	position: fixed;
+	width: 150px;
+	height: 150px;
+	left: 0%;
+	top: 0%;
+	background-color: red;
+}
+
+#direitacima {
+	position: fixed;
+	width: 150px;
+	height: 150px;
+	right: 0%;
+	top: 0%;
+	background-color: yellow;
+}
+
+
+#esquerdabaixo {
+	position: fixed;
+	width: 150px;
+	height: 150px;
+	left: auto;
+	bottom: 0%;
+	background-color: green;
+}
+
+#direitabaixo {
+	position: fixed;
+	width: 150px;
+	height: 150px;
+	right: 0px;
+	bottom: 0px;
+	background-color: blue;
+}

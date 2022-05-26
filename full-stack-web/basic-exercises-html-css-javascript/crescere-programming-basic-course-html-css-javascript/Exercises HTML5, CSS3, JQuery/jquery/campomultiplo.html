@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exemplo JQuery</title>
+		<meta charset="UTF-8" />
+		
+		<script type="text/javascript" src="jquery-1.2.6.js"></script>
+		
+		<script type="text/javascript">
+		<!--
+			$().ready(function(){
+				var texto = $("#paragrafo").html();
+				$("#paragrafo").html("Substituindo o texto!");	
+
+				$("#inserirAluno").click(function(){
+					var divAlunos = $("#divAlunos").html();
+					$("#divAlunos").html(divAlunos + "<label for='aluno'>Aluno: </label><input type='text' id='aluno' name='aluno' /><br/><br/>");
+				});				
+			});
+		//-->
+		</script>
+	</head>
+	<body>	
+		<p id="paragrafo">guiedhi9osdhgoisdhfoisdf</p>
+		<label for="aluno">Aluno: </label><input type="text" id="aluno" name="aluno" /><br/><br/>
+		<div id="divAlunos"></div>
+		<input type="button" id="inserirAluno" name="inserirAluno" value="+ Aluno" />
+	</body>
+</html>

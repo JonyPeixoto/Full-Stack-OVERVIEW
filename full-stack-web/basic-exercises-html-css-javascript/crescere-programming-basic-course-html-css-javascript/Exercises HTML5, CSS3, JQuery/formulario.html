@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Exemplo de formulário</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body>	
+		<h1>Cadastro de Usuário</h1>
+			<fieldset>
+				<legend>Dados pessoais</legend>
+				<form action="" method="post">
+					<label for="nome">Nome:  </label><input type="text" id="nome" name="nome" placeholder="Digite seu nome" maxlength="30"  />
+					<br/><br/>
+					<label for="login">Login:  </label><input type="text" id="login" name="login" placeholder="Digite seu login" maxlength="10"  />
+					<br/><br/>
+					<label for="senha">Senha:  </label><input type="password" id="senha" name="senha" placeholder="Digite sua senha" maxlength="10"  />
+					<br/><br/>
+					<label for="descricao">Descrição:</label><br/><textarea id="descricao" name="descricao" rows="10" cols="30" placeholder="Digite a descrição" maxlength="30"></textarea ><br/><br/>
+					<label for="Profissão">Profissão:</label>
+					<select id="profissao" name="profissao">
+						<option value="0" selected >-- Selecione a profissão --</option>
+						<option value="1">Estudante</option>
+						<option value="2">Engenheiro</option>
+						<option value="3">Médico</option>
+						<option value="4">Professor</option>
+						<option value="5">Empreendedor</option>
+					</select><br/>
+					<label for="estado_civil">Estado Civil: </label>
+					<input type="radio" id="solteiro" name="estado_civil"/> Solteiro 
+					<input type="radio" id="casado" name="estado_civil"/> Casado 
+					<input type="radio" id="divorciado" name="estado_civil" /> Divorciado 
+					<input type="radio" id="viuvo" name="estado_civil"/> Viúvo
+					<br/><br/>
+					<label for="termos">Li os termos de uso: </label> <input type="checkbox" id="termos"name="termos" /> <br/><br/>
+					<!--input type="button" id="inserir" name="inserir" value="+Usuário" />-->
+					<input type="reset" id="restaurar" name="restaurar" value="Restaurar" />
+					<input type="submit" id="enviar" name="enviar" value="Cadastrar" />
+				</form>
+	</body>
+</html>

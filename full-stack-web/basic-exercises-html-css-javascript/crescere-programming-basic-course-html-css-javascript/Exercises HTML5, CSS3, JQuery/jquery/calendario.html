@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Exemplo JQuery</title>
+        <meta charset="UTF-8" />
+		
+        <script type="text/javascript" src="jquery-1.2.6.js"></script>
+        <script type="text/javascript" src="jquery.maskedinput-1.1.4.js"></script>
+        <script type="text/javascript" src="ui.datepicker.js"></script>
+        <script type="text/javascript" src="ui.datepicker-pt-BR.js"></script>
+		<link rel="stylesheet type="text/css" href="ui.datepicker.css" />
+		
+		<script type="text/javascript" >
+		<!--
+			$().ready(function(){
+				$("#data_nascimento").mask("99/99/9999");
+				$.datepicker.setDefaults($.datepicker.regional['pt-BR']);
+				$("#data_nascimento").datepicker();
+			});
+		//-->
+		</script>
+    </head>
+    <body>
+		<label for="data_nascimento">Data de nascimento: </label><input type="text" id="data_nascimento" name="data_nascimento" placeholder="dd/mm/aaaa" /> 
+    </body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Exemplo de CSS</title>
+		<meta charset="UTF-8" />
+		<link type="text/css" rel="stylesheet" href="./estilo/estilo.css" />
+	</head>
+	<body>
+		<div id="conteudo">
+		<p>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+		What is Lorem Ipsum?
+		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type spe</p>
+		</div>
+	</body>
+</html>

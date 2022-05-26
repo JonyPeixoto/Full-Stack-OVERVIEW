@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<htm lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+		
+		<link type="text/css" rel="stylesheet" href="estiloORIENTACAOOBJETO.css" />
+		
+        <title>Recolher dados de altura e sexo de 5 pessoas, saber quantas pessoas são do sexo masculino e feminino. Mostrar qual é a maior altura e se a altura é de homem ou mulher.</title>
+        <script type="text/javascript">
+        <!--
+          
+		  function valida()
+		  {
+			//var paragrafo = document.getElementById("paragrafo").innerHTML;
+			//alert(paragrafo);
+			
+			var nome = document.getElementById("nome").value;
+			//document.write(nome);
+			
+			if(nome == "")
+			{
+				//document.write("<p>Esse campo não pode ser deixado em branco!</p>");
+				var divErros = document.getElementById("erros");
+				divErros.innerHTML = "<div><p>Esse campo não pode ser deixado em branco!</p></div>";
+			}
+			else
+			{
+				document.write(nome);
+			}
+		  }
+				
+        //-->
+        </script>
+    </head>
+    <body>
+		<p id="paragrafo"> Isso é um parágrafo!</p>
+		<div id="erros"></div>
+		<label for="nome">Nome: </label><input type="text" id="nome" name="nome" br/></br/> 
+		<input type="button" id="botao" name="botao" value="Clique aqui" onclick="valida();"/>
+    </body>
+</html>

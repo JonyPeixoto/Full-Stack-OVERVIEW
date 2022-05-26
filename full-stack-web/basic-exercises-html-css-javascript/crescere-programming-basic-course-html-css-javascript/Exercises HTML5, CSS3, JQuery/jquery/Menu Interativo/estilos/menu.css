@@ -1,0 +1,36 @@
+ul{
+	list-style-type:none;
+}
+
+ul li{
+	margin-bottom:10px;
+}
+
+ul li a{
+	color:white;
+	text-decoration:none;
+}
+
+#divMenu{
+	position:absolute;
+	min-height:600px;
+	padding:30px;
+	background-color:rgb(0,0,0,0.7);
+	display:none;
+}
+
+#iconExpand{
+	position:absolute;
+	height:30px;
+	padding:5px;
+	margin-left:120px;
+	background-color: rgb(0,0,0,0.7);
+}
+
+.submenu{
+	margin-left:30px;
+	display:none;
+}
+
+
+	
